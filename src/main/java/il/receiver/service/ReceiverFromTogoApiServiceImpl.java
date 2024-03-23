@@ -1,10 +1,9 @@
 package il.receiver.service;
 
 import il.receiver.external.TogoApiService;
-import il.receiver.models.CarsV2Response;
+import il.receiver.external.dto.carsV2.CarsV2Response;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
-import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
 
 @Slf4j
@@ -26,5 +25,10 @@ public class ReceiverFromTogoApiServiceImpl implements MvpReceiverService {
         CarsV2Response response = togoApiService.receiveCardsData(projectType, cars, vType, licencePlate);
 
         log.info("");
+    }
+
+    @Override
+    public void invokeVFlatTogo() {
+        togoApiService.receiveFreeVehicles(null);
     }
 }

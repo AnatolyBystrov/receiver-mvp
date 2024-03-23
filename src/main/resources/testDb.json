@@ -1,0 +1,2426 @@
+{
+  "points": [
+    {
+      "longitude": 34.782735,
+      "latitude": 32.065561,
+      "count": 400,
+      "icon": "Autotel"
+    }
+  ],
+  "a2A": [],
+  "a2B": [
+    {
+      "id": 378,
+      "vType": 1,
+      "vTypeGroup": "car",
+      "longitude": 34.7502,
+      "latitude": 32.04782,
+      "modalityTypeId": 1,
+      "fuelLevel": "high"
+    },
+    {
+      "id": 380,
+      "vType": 1,
+      "vTypeGroup": "car",
+      "longitude": 34.83135,
+      "latitude": 32.12516,
+      "modalityTypeId": 1,
+      "fuelLevel": "med"
+    },
+    {
+      "id": 381,
+      "vType": 1,
+      "vTypeGroup": "car",
+      "longitude": 34.76962,
+      "latitude": 32.0546,
+      "modalityTypeId": 1,
+      "fuelLevel": "med",
+      "p": true,
+      "pid": 322
+    },
+    {
+      "id": 382,
+      "vType": 1,
+      "vTypeGroup": "car",
+      "longitude": 34.81056,
+      "latitude": 32.10339,
+      "modalityTypeId": 1,
+      "fuelLevel": "med"
+    },
+    {
+      "id": 385,
+      "vType": 1,
+      "vTypeGroup": "car",
+      "longitude": 34.79067,
+      "latitude": 32.10425,
+      "modalityTypeId": 1,
+      "fuelLevel": "med"
+    },
+    {
+      "id": 386,
+      "vType": 1,
+      "vTypeGroup": "car",
+      "longitude": 34.76213,
+      "latitude": 32.03973,
+      "modalityTypeId": 1,
+      "fuelLevel": "high"
+    },
+    {
+      "id": 387,
+      "vType": 1,
+      "vTypeGroup": "car",
+      "longitude": 34.76437,
+      "latitude": 32.06423,
+      "modalityTypeId": 1,
+      "fuelLevel": "high"
+    },
+    {
+      "id": 388,
+      "vType": 1,
+      "vTypeGroup": "car",
+      "longitude": 34.74869,
+      "latitude": 32.03868,
+      "modalityTypeId": 1,
+      "fuelLevel": "med"
+    },
+    {
+      "id": 389,
+      "vType": 1,
+      "vTypeGroup": "car",
+      "longitude": 34.76434,
+      "latitude": 32.05345,
+      "modalityTypeId": 1,
+      "fuelLevel": "med"
+    },
+    {
+      "id": 391,
+      "vType": 1,
+      "vTypeGroup": "car",
+      "longitude": 34.79184,
+      "latitude": 32.09215,
+      "modalityTypeId": 1,
+      "fuelLevel": "med",
+      "p": true,
+      "pid": 312
+    },
+    {
+      "id": 392,
+      "vType": 1,
+      "vTypeGroup": "car",
+      "longitude": 34.79514,
+      "latitude": 32.05446,
+      "modalityTypeId": 1,
+      "fuelLevel": "med"
+    },
+    {
+      "id": 394,
+      "vType": 1,
+      "vTypeGroup": "car",
+      "longitude": 34.74836,
+      "latitude": 32.04484,
+      "modalityTypeId": 1,
+      "fuelLevel": "med"
+    },
+    {
+      "id": 395,
+      "vType": 1,
+      "vTypeGroup": "car",
+      "longitude": 34.77131,
+      "latitude": 32.08752,
+      "modalityTypeId": 1,
+      "fuelLevel": "med",
+      "p": true,
+      "pid": 26
+    },
+    {
+      "id": 396,
+      "vType": 1,
+      "vTypeGroup": "car",
+      "longitude": 34.77617,
+      "latitude": 32.042,
+      "modalityTypeId": 1,
+      "fuelLevel": "high"
+    },
+    {
+      "id": 399,
+      "vType": 1,
+      "vTypeGroup": "car",
+      "longitude": 34.78517,
+      "latitude": 32.09323,
+      "modalityTypeId": 1,
+      "fuelLevel": "high"
+    },
+    {
+      "id": 400,
+      "vType": 1,
+      "vTypeGroup": "car",
+      "longitude": 34.75951,
+      "latitude": 32.04436,
+      "modalityTypeId": 1,
+      "fuelLevel": "high"
+    },
+    {
+      "id": 402,
+      "vType": 1,
+      "vTypeGroup": "car",
+      "longitude": 34.77549,
+      "latitude": 32.06632,
+      "modalityTypeId": 1,
+      "fuelLevel": "med"
+    },
+    {
+      "id": 403,
+      "vType": 1,
+      "vTypeGroup": "car",
+      "longitude": 34.77877,
+      "latitude": 32.07715,
+      "modalityTypeId": 1,
+      "fuelLevel": "high",
+      "p": true,
+      "pid": 371
+    },
+    {
+      "id": 404,
+      "vType": 1,
+      "vTypeGroup": "car",
+      "longitude": 34.75859,
+      "latitude": 32.05067,
+      "modalityTypeId": 1,
+      "fuelLevel": "high"
+    },
+    {
+      "id": 405,
+      "vType": 1,
+      "vTypeGroup": "car",
+      "longitude": 34.77953,
+      "latitude": 32.06031,
+      "modalityTypeId": 1,
+      "fuelLevel": "med"
+    },
+    {
+      "id": 406,
+      "vType": 1,
+      "vTypeGroup": "car",
+      "longitude": 34.77607,
+      "latitude": 32.06583,
+      "modalityTypeId": 1,
+      "fuelLevel": "med"
+    },
+    {
+      "id": 407,
+      "vType": 1,
+      "vTypeGroup": "car",
+      "longitude": 34.74652,
+      "latitude": 32.04019,
+      "modalityTypeId": 1,
+      "fuelLevel": "high"
+    },
+    {
+      "id": 411,
+      "vType": 1,
+      "vTypeGroup": "car",
+      "longitude": 34.79837,
+      "latitude": 32.06085,
+      "modalityTypeId": 1,
+      "fuelLevel": "high"
+    },
+    {
+      "id": 412,
+      "vType": 1,
+      "vTypeGroup": "car",
+      "longitude": 34.818,
+      "latitude": 32.12213,
+      "modalityTypeId": 1,
+      "fuelLevel": "med"
+    },
+    {
+      "id": 413,
+      "vType": 1,
+      "vTypeGroup": "car",
+      "longitude": 34.77005,
+      "latitude": 32.05779,
+      "modalityTypeId": 1,
+      "fuelLevel": "med"
+    },
+    {
+      "id": 416,
+      "vType": 1,
+      "vTypeGroup": "car",
+      "longitude": 34.79219,
+      "latitude": 32.13947,
+      "modalityTypeId": 1,
+      "fuelLevel": "high"
+    },
+    {
+      "id": 417,
+      "vType": 1,
+      "vTypeGroup": "car",
+      "longitude": 34.77756,
+      "latitude": 32.04546,
+      "modalityTypeId": 1,
+      "fuelLevel": "med"
+    },
+    {
+      "id": 418,
+      "vType": 1,
+      "vTypeGroup": "car",
+      "longitude": 34.80667,
+      "latitude": 32.05505,
+      "modalityTypeId": 1,
+      "fuelLevel": "med"
+    },
+    {
+      "id": 419,
+      "vType": 1,
+      "vTypeGroup": "car",
+      "longitude": 34.78347,
+      "latitude": 32.10113,
+      "modalityTypeId": 1,
+      "fuelLevel": "med"
+    },
+    {
+      "id": 420,
+      "vType": 1,
+      "vTypeGroup": "car",
+      "longitude": 34.75025,
+      "latitude": 32.04782,
+      "modalityTypeId": 1,
+      "fuelLevel": "med"
+    },
+    {
+      "id": 421,
+      "vType": 1,
+      "vTypeGroup": "car",
+      "longitude": 34.76048,
+      "latitude": 32.05132,
+      "modalityTypeId": 1,
+      "fuelLevel": "med"
+    },
+    {
+      "id": 422,
+      "vType": 1,
+      "vTypeGroup": "car",
+      "longitude": 34.77547,
+      "latitude": 32.06938,
+      "modalityTypeId": 1,
+      "fuelLevel": "high"
+    },
+    {
+      "id": 423,
+      "vType": 1,
+      "vTypeGroup": "car",
+      "longitude": 34.77767,
+      "latitude": 32.07035,
+      "modalityTypeId": 1,
+      "fuelLevel": "high"
+    },
+    {
+      "id": 424,
+      "vType": 1,
+      "vTypeGroup": "car",
+      "longitude": 34.75507,
+      "latitude": 32.05352,
+      "modalityTypeId": 1,
+      "fuelLevel": "med",
+      "p": true,
+      "pid": 53
+    },
+    {
+      "id": 425,
+      "vType": 1,
+      "vTypeGroup": "car",
+      "longitude": 34.75551,
+      "latitude": 32.04917,
+      "modalityTypeId": 1,
+      "fuelLevel": "high"
+    },
+    {
+      "id": 426,
+      "vType": 1,
+      "vTypeGroup": "car",
+      "longitude": 34.83222,
+      "latitude": 32.12371,
+      "modalityTypeId": 1,
+      "fuelLevel": "high"
+    },
+    {
+      "id": 430,
+      "vType": 1,
+      "vTypeGroup": "car",
+      "longitude": 34.76379,
+      "latitude": 32.05677,
+      "modalityTypeId": 1,
+      "fuelLevel": "med"
+    },
+    {
+      "id": 431,
+      "vType": 1,
+      "vTypeGroup": "car",
+      "longitude": 34.7627,
+      "latitude": 32.03693,
+      "modalityTypeId": 1,
+      "fuelLevel": "med",
+      "p": true,
+      "pid": 225
+    },
+    {
+      "id": 432,
+      "vType": 1,
+      "vTypeGroup": "car",
+      "longitude": 34.79505,
+      "latitude": 32.06163,
+      "modalityTypeId": 1,
+      "fuelLevel": "high"
+    },
+    {
+      "id": 433,
+      "vType": 1,
+      "vTypeGroup": "car",
+      "longitude": 34.77224,
+      "latitude": 32.051,
+      "modalityTypeId": 1,
+      "fuelLevel": "med"
+    },
+    {
+      "id": 434,
+      "vType": 1,
+      "vTypeGroup": "car",
+      "longitude": 34.80144,
+      "latitude": 32.07547,
+      "modalityTypeId": 1,
+      "fuelLevel": "med",
+      "p": true,
+      "pid": 256
+    },
+    {
+      "id": 436,
+      "vType": 1,
+      "vTypeGroup": "car",
+      "longitude": 34.79826,
+      "latitude": 32.06173,
+      "modalityTypeId": 1,
+      "fuelLevel": "med"
+    },
+    {
+      "id": 437,
+      "vType": 1,
+      "vTypeGroup": "car",
+      "longitude": 34.77642,
+      "latitude": 32.07616,
+      "modalityTypeId": 1,
+      "fuelLevel": "high",
+      "p": true,
+      "pid": 28
+    },
+    {
+      "id": 438,
+      "vType": 1,
+      "vTypeGroup": "car",
+      "longitude": 34.77948,
+      "latitude": 32.07129,
+      "modalityTypeId": 1,
+      "fuelLevel": "med",
+      "p": true,
+      "pid": 36
+    },
+    {
+      "id": 441,
+      "vType": 1,
+      "vTypeGroup": "car",
+      "longitude": 34.7909,
+      "latitude": 32.05654,
+      "modalityTypeId": 1,
+      "fuelLevel": "med"
+    },
+    {
+      "id": 443,
+      "vType": 1,
+      "vTypeGroup": "car",
+      "longitude": 34.77444,
+      "latitude": 32.07232,
+      "modalityTypeId": 1,
+      "fuelLevel": "med",
+      "p": true,
+      "pid": 61
+    },
+    {
+      "id": 445,
+      "vType": 1,
+      "vTypeGroup": "car",
+      "longitude": 34.75705,
+      "latitude": 32.05038,
+      "modalityTypeId": 1,
+      "fuelLevel": "high",
+      "p": true,
+      "pid": 263
+    },
+    {
+      "id": 446,
+      "vType": 1,
+      "vTypeGroup": "car",
+      "longitude": 34.74848,
+      "latitude": 32.04535,
+      "modalityTypeId": 1,
+      "fuelLevel": "high"
+    },
+    {
+      "id": 447,
+      "vType": 1,
+      "vTypeGroup": "car",
+      "longitude": 34.80827,
+      "latitude": 32.05374,
+      "modalityTypeId": 1,
+      "fuelLevel": "high"
+    },
+    {
+      "id": 449,
+      "vType": 1,
+      "vTypeGroup": "car",
+      "longitude": 34.81806,
+      "latitude": 32.12215,
+      "modalityTypeId": 1,
+      "fuelLevel": "high"
+    },
+    {
+      "id": 450,
+      "vType": 1,
+      "vTypeGroup": "car",
+      "longitude": 34.7979,
+      "latitude": 32.09816,
+      "modalityTypeId": 1,
+      "fuelLevel": "high"
+    },
+    {
+      "id": 451,
+      "vType": 1,
+      "vTypeGroup": "car",
+      "longitude": 34.75537,
+      "latitude": 32.04474,
+      "modalityTypeId": 1,
+      "fuelLevel": "med"
+    },
+    {
+      "id": 452,
+      "vType": 1,
+      "vTypeGroup": "car",
+      "longitude": 34.80696,
+      "latitude": 32.11773,
+      "modalityTypeId": 1,
+      "fuelLevel": "med"
+    },
+    {
+      "id": 453,
+      "vType": 1,
+      "vTypeGroup": "car",
+      "longitude": 34.78228,
+      "latitude": 32.06895,
+      "modalityTypeId": 1,
+      "fuelLevel": "med",
+      "p": true,
+      "pid": 117
+    },
+    {
+      "id": 455,
+      "vType": 1,
+      "vTypeGroup": "car",
+      "longitude": 34.78247,
+      "latitude": 32.06897,
+      "modalityTypeId": 1,
+      "fuelLevel": "med"
+    },
+    {
+      "id": 456,
+      "vType": 1,
+      "vTypeGroup": "car",
+      "longitude": 34.76908,
+      "latitude": 32.06745,
+      "modalityTypeId": 1,
+      "fuelLevel": "high",
+      "p": true,
+      "pid": 25
+    },
+    {
+      "id": 457,
+      "vType": 1,
+      "vTypeGroup": "car",
+      "longitude": 34.76067,
+      "latitude": 32.05494,
+      "modalityTypeId": 1,
+      "fuelLevel": "high",
+      "p": true,
+      "pid": 219
+    },
+    {
+      "id": 458,
+      "vType": 1,
+      "vTypeGroup": "car",
+      "longitude": 34.75023,
+      "latitude": 32.04673,
+      "modalityTypeId": 1,
+      "fuelLevel": "med"
+    },
+    {
+      "id": 460,
+      "vType": 1,
+      "vTypeGroup": "car",
+      "longitude": 34.76274,
+      "latitude": 32.037,
+      "modalityTypeId": 1,
+      "fuelLevel": "high"
+    },
+    {
+      "id": 462,
+      "vType": 1,
+      "vTypeGroup": "car",
+      "longitude": 34.79522,
+      "latitude": 32.13043,
+      "modalityTypeId": 1,
+      "fuelLevel": "high"
+    },
+    {
+      "id": 463,
+      "vType": 1,
+      "vTypeGroup": "car",
+      "longitude": 34.82807,
+      "latitude": 32.12319,
+      "modalityTypeId": 1,
+      "fuelLevel": "med"
+    },
+    {
+      "id": 464,
+      "vType": 1,
+      "vTypeGroup": "car",
+      "longitude": 34.82407,
+      "latitude": 32.12532,
+      "modalityTypeId": 1,
+      "fuelLevel": "med"
+    },
+    {
+      "id": 466,
+      "vType": 1,
+      "vTypeGroup": "car",
+      "longitude": 34.74831,
+      "latitude": 32.04531,
+      "modalityTypeId": 1,
+      "fuelLevel": "high"
+    },
+    {
+      "id": 467,
+      "vType": 1,
+      "vTypeGroup": "car",
+      "longitude": 34.76855,
+      "latitude": 32.05196,
+      "modalityTypeId": 1,
+      "fuelLevel": "high"
+    },
+    {
+      "id": 468,
+      "vType": 1,
+      "vTypeGroup": "car",
+      "longitude": 34.7744,
+      "latitude": 32.07233,
+      "modalityTypeId": 1,
+      "fuelLevel": "med",
+      "p": true,
+      "pid": 61
+    },
+    {
+      "id": 470,
+      "vType": 1,
+      "vTypeGroup": "car",
+      "longitude": 34.79657,
+      "latitude": 32.11883,
+      "modalityTypeId": 1,
+      "fuelLevel": "high"
+    },
+    {
+      "id": 471,
+      "vType": 1,
+      "vTypeGroup": "car",
+      "longitude": 34.8034,
+      "latitude": 32.0455,
+      "modalityTypeId": 1,
+      "fuelLevel": "high"
+    },
+    {
+      "id": 472,
+      "vType": 1,
+      "vTypeGroup": "car",
+      "longitude": 34.77486,
+      "latitude": 32.04217,
+      "modalityTypeId": 1,
+      "fuelLevel": "high"
+    },
+    {
+      "id": 473,
+      "vType": 1,
+      "vTypeGroup": "car",
+      "longitude": 34.80389,
+      "latitude": 32.05062,
+      "modalityTypeId": 1,
+      "fuelLevel": "med"
+    },
+    {
+      "id": 474,
+      "vType": 1,
+      "vTypeGroup": "car",
+      "longitude": 34.83039,
+      "latitude": 32.12481,
+      "modalityTypeId": 1,
+      "fuelLevel": "high"
+    },
+    {
+      "id": 475,
+      "vType": 1,
+      "vTypeGroup": "car",
+      "longitude": 34.79231,
+      "latitude": 32.14435,
+      "modalityTypeId": 1,
+      "fuelLevel": "med"
+    },
+    {
+      "id": 476,
+      "vType": 1,
+      "vTypeGroup": "car",
+      "longitude": 34.76339,
+      "latitude": 32.05509,
+      "modalityTypeId": 1,
+      "fuelLevel": "high"
+    },
+    {
+      "id": 477,
+      "vType": 1,
+      "vTypeGroup": "car",
+      "longitude": 34.82111,
+      "latitude": 32.11413,
+      "modalityTypeId": 1,
+      "fuelLevel": "med"
+    },
+    {
+      "id": 478,
+      "vType": 1,
+      "vTypeGroup": "car",
+      "longitude": 34.77169,
+      "latitude": 32.07314,
+      "modalityTypeId": 1,
+      "fuelLevel": "high",
+      "p": true,
+      "pid": 115
+    },
+    {
+      "id": 480,
+      "vType": 1,
+      "vTypeGroup": "car",
+      "longitude": 34.7478,
+      "latitude": 32.04293,
+      "modalityTypeId": 1,
+      "fuelLevel": "high"
+    },
+    {
+      "id": 481,
+      "vType": 1,
+      "vTypeGroup": "car",
+      "longitude": 34.76966,
+      "latitude": 32.05453,
+      "modalityTypeId": 1,
+      "fuelLevel": "high",
+      "p": true,
+      "pid": 322
+    },
+    {
+      "id": 482,
+      "vType": 1,
+      "vTypeGroup": "car",
+      "longitude": 34.77632,
+      "latitude": 32.04442,
+      "modalityTypeId": 1,
+      "fuelLevel": "med"
+    },
+    {
+      "id": 483,
+      "vType": 1,
+      "vTypeGroup": "car",
+      "longitude": 34.76255,
+      "latitude": 32.03683,
+      "modalityTypeId": 1,
+      "fuelLevel": "med",
+      "p": true,
+      "pid": 225
+    },
+    {
+      "id": 485,
+      "vType": 1,
+      "vTypeGroup": "car",
+      "longitude": 34.77988,
+      "latitude": 32.06058,
+      "modalityTypeId": 1,
+      "fuelLevel": "med"
+    },
+    {
+      "id": 486,
+      "vType": 1,
+      "vTypeGroup": "car",
+      "longitude": 34.75415,
+      "latitude": 32.05124,
+      "modalityTypeId": 1,
+      "fuelLevel": "high"
+    },
+    {
+      "id": 487,
+      "vType": 1,
+      "vTypeGroup": "car",
+      "longitude": 34.76714,
+      "latitude": 32.05732,
+      "modalityTypeId": 1,
+      "fuelLevel": "low",
+      "p": true,
+      "pid": 214
+    },
+    {
+      "id": 488,
+      "vType": 1,
+      "vTypeGroup": "car",
+      "longitude": 34.74961,
+      "latitude": 32.04701,
+      "modalityTypeId": 1,
+      "fuelLevel": "med"
+    },
+    {
+      "id": 489,
+      "vType": 1,
+      "vTypeGroup": "car",
+      "longitude": 34.81147,
+      "latitude": 32.12335,
+      "modalityTypeId": 1,
+      "fuelLevel": "high"
+    },
+    {
+      "id": 490,
+      "vType": 1,
+      "vTypeGroup": "car",
+      "longitude": 34.79007,
+      "latitude": 32.10497,
+      "modalityTypeId": 1,
+      "fuelLevel": "med"
+    },
+    {
+      "id": 491,
+      "vType": 1,
+      "vTypeGroup": "car",
+      "longitude": 34.79178,
+      "latitude": 32.14228,
+      "modalityTypeId": 1,
+      "fuelLevel": "high"
+    },
+    {
+      "id": 497,
+      "vType": 1,
+      "vTypeGroup": "car",
+      "longitude": 34.76797,
+      "latitude": 32.05285,
+      "modalityTypeId": 1,
+      "fuelLevel": "high",
+      "p": true,
+      "pid": 356
+    },
+    {
+      "id": 498,
+      "vType": 1,
+      "vTypeGroup": "car",
+      "longitude": 34.79359,
+      "latitude": 32.14435,
+      "modalityTypeId": 1,
+      "fuelLevel": "med"
+    },
+    {
+      "id": 499,
+      "vType": 1,
+      "vTypeGroup": "car",
+      "longitude": 34.76095,
+      "latitude": 32.05685,
+      "modalityTypeId": 1,
+      "fuelLevel": "high",
+      "p": true,
+      "pid": 87
+    },
+    {
+      "id": 500,
+      "vType": 1,
+      "vTypeGroup": "car",
+      "longitude": 34.76708,
+      "latitude": 32.06163,
+      "modalityTypeId": 1,
+      "fuelLevel": "high",
+      "p": true,
+      "pid": 171
+    },
+    {
+      "id": 501,
+      "vType": 1,
+      "vTypeGroup": "car",
+      "longitude": 34.79112,
+      "latitude": 32.06491,
+      "modalityTypeId": 1,
+      "fuelLevel": "high"
+    },
+    {
+      "id": 502,
+      "vType": 1,
+      "vTypeGroup": "car",
+      "longitude": 34.76852,
+      "latitude": 32.05088,
+      "modalityTypeId": 1,
+      "fuelLevel": "high"
+    },
+    {
+      "id": 503,
+      "vType": 1,
+      "vTypeGroup": "car",
+      "longitude": 34.75016,
+      "latitude": 32.04531,
+      "modalityTypeId": 1,
+      "fuelLevel": "med"
+    },
+    {
+      "id": 504,
+      "vType": 1,
+      "vTypeGroup": "car",
+      "longitude": 34.76534,
+      "latitude": 32.05548,
+      "modalityTypeId": 1,
+      "fuelLevel": "med"
+    },
+    {
+      "id": 505,
+      "vType": 1,
+      "vTypeGroup": "car",
+      "longitude": 34.79756,
+      "latitude": 32.11879,
+      "modalityTypeId": 1,
+      "fuelLevel": "high"
+    },
+    {
+      "id": 506,
+      "vType": 1,
+      "vTypeGroup": "car",
+      "longitude": 34.79373,
+      "latitude": 32.13723,
+      "modalityTypeId": 1,
+      "fuelLevel": "med"
+    },
+    {
+      "id": 507,
+      "vType": 1,
+      "vTypeGroup": "car",
+      "longitude": 34.79918,
+      "latitude": 32.12273,
+      "modalityTypeId": 1,
+      "fuelLevel": "med"
+    },
+    {
+      "id": 508,
+      "vType": 1,
+      "vTypeGroup": "car",
+      "longitude": 34.7707,
+      "latitude": 32.06489,
+      "modalityTypeId": 1,
+      "fuelLevel": "high",
+      "p": true,
+      "pid": 301
+    },
+    {
+      "id": 509,
+      "vType": 1,
+      "vTypeGroup": "car",
+      "longitude": 34.7699,
+      "latitude": 32.07413,
+      "modalityTypeId": 1,
+      "fuelLevel": "high",
+      "p": true,
+      "pid": 266
+    },
+    {
+      "id": 510,
+      "vType": 1,
+      "vTypeGroup": "car",
+      "longitude": 34.74829,
+      "latitude": 32.03101,
+      "modalityTypeId": 1,
+      "fuelLevel": "med"
+    },
+    {
+      "id": 512,
+      "vType": 1,
+      "vTypeGroup": "car",
+      "longitude": 34.7667,
+      "latitude": 32.07559,
+      "modalityTypeId": 1,
+      "fuelLevel": "med",
+      "p": true,
+      "pid": 49
+    },
+    {
+      "id": 513,
+      "vType": 1,
+      "vTypeGroup": "car",
+      "longitude": 34.7666,
+      "latitude": 32.05894,
+      "modalityTypeId": 1,
+      "fuelLevel": "med"
+    },
+    {
+      "id": 515,
+      "vType": 1,
+      "vTypeGroup": "car",
+      "longitude": 34.77741,
+      "latitude": 32.05575,
+      "modalityTypeId": 1,
+      "fuelLevel": "med"
+    },
+    {
+      "id": 518,
+      "vType": 1,
+      "vTypeGroup": "car",
+      "longitude": 34.79125,
+      "latitude": 32.14085,
+      "modalityTypeId": 1,
+      "fuelLevel": "high"
+    },
+    {
+      "id": 519,
+      "vType": 1,
+      "vTypeGroup": "car",
+      "longitude": 34.82183,
+      "latitude": 32.10257,
+      "modalityTypeId": 1,
+      "fuelLevel": "high"
+    },
+    {
+      "id": 520,
+      "vType": 1,
+      "vTypeGroup": "car",
+      "longitude": 34.78746,
+      "latitude": 32.07741,
+      "modalityTypeId": 1,
+      "fuelLevel": "high"
+    },
+    {
+      "id": 522,
+      "vType": 1,
+      "vTypeGroup": "car",
+      "longitude": 34.8014,
+      "latitude": 32.07551,
+      "modalityTypeId": 1,
+      "fuelLevel": "med",
+      "p": true,
+      "pid": 256
+    },
+    {
+      "id": 524,
+      "vType": 1,
+      "vTypeGroup": "car",
+      "longitude": 34.75498,
+      "latitude": 32.05359,
+      "modalityTypeId": 1,
+      "fuelLevel": "med",
+      "p": true,
+      "pid": 53
+    },
+    {
+      "id": 526,
+      "vType": 1,
+      "vTypeGroup": "car",
+      "longitude": 34.74918,
+      "latitude": 32.05006,
+      "modalityTypeId": 1,
+      "fuelLevel": "med"
+    },
+    {
+      "id": 529,
+      "vType": 1,
+      "vTypeGroup": "car",
+      "longitude": 34.77217,
+      "latitude": 32.06825,
+      "modalityTypeId": 1,
+      "fuelLevel": "high"
+    },
+    {
+      "id": 530,
+      "vType": 1,
+      "vTypeGroup": "car",
+      "longitude": 34.77338,
+      "latitude": 32.07481,
+      "modalityTypeId": 1,
+      "fuelLevel": "high",
+      "p": true,
+      "pid": 116
+    },
+    {
+      "id": 532,
+      "vType": 1,
+      "vTypeGroup": "car",
+      "longitude": 34.82955,
+      "latitude": 32.12755,
+      "modalityTypeId": 1,
+      "fuelLevel": "med"
+    },
+    {
+      "id": 534,
+      "vType": 1,
+      "vTypeGroup": "car",
+      "longitude": 34.81182,
+      "latitude": 32.10419,
+      "modalityTypeId": 1,
+      "fuelLevel": "med"
+    },
+    {
+      "id": 535,
+      "vType": 1,
+      "vTypeGroup": "car",
+      "longitude": 34.77155,
+      "latitude": 32.05891,
+      "modalityTypeId": 1,
+      "fuelLevel": "med"
+    },
+    {
+      "id": 536,
+      "vType": 1,
+      "vTypeGroup": "car",
+      "longitude": 34.77175,
+      "latitude": 32.07309,
+      "modalityTypeId": 1,
+      "fuelLevel": "med",
+      "p": true,
+      "pid": 115
+    },
+    {
+      "id": 537,
+      "vType": 1,
+      "vTypeGroup": "car",
+      "longitude": 34.75666,
+      "latitude": 32.05266,
+      "modalityTypeId": 1,
+      "fuelLevel": "high"
+    },
+    {
+      "id": 538,
+      "vType": 1,
+      "vTypeGroup": "car",
+      "longitude": 34.76987,
+      "latitude": 32.05625,
+      "modalityTypeId": 1,
+      "fuelLevel": "med",
+      "p": true,
+      "pid": 21
+    },
+    {
+      "id": 541,
+      "vType": 1,
+      "vTypeGroup": "car",
+      "longitude": 34.76455,
+      "latitude": 32.05848,
+      "modalityTypeId": 1,
+      "fuelLevel": "high"
+    },
+    {
+      "id": 544,
+      "vType": 1,
+      "vTypeGroup": "car",
+      "longitude": 34.77437,
+      "latitude": 32.07238,
+      "modalityTypeId": 1,
+      "fuelLevel": "med"
+    },
+    {
+      "id": 545,
+      "vType": 1,
+      "vTypeGroup": "car",
+      "longitude": 34.76487,
+      "latitude": 32.05368,
+      "modalityTypeId": 1,
+      "fuelLevel": "med"
+    },
+    {
+      "id": 547,
+      "vType": 1,
+      "vTypeGroup": "car",
+      "longitude": 34.81398,
+      "latitude": 32.12275,
+      "modalityTypeId": 1,
+      "fuelLevel": "high"
+    },
+    {
+      "id": 548,
+      "vType": 1,
+      "vTypeGroup": "car",
+      "longitude": 34.76285,
+      "latitude": 32.03691,
+      "modalityTypeId": 1,
+      "fuelLevel": "high"
+    },
+    {
+      "id": 549,
+      "vType": 1,
+      "vTypeGroup": "car",
+      "longitude": 34.79238,
+      "latitude": 32.14329,
+      "modalityTypeId": 1,
+      "fuelLevel": "med",
+      "p": true,
+      "pid": 180
+    },
+    {
+      "id": 551,
+      "vType": 1,
+      "vTypeGroup": "car",
+      "longitude": 34.78508,
+      "latitude": 32.07143,
+      "modalityTypeId": 1,
+      "fuelLevel": "med"
+    },
+    {
+      "id": 552,
+      "vType": 1,
+      "vTypeGroup": "car",
+      "longitude": 34.76379,
+      "latitude": 32.05434,
+      "modalityTypeId": 1,
+      "fuelLevel": "med"
+    },
+    {
+      "id": 553,
+      "vType": 1,
+      "vTypeGroup": "car",
+      "longitude": 34.77792,
+      "latitude": 32.05028,
+      "modalityTypeId": 1,
+      "fuelLevel": "high"
+    },
+    {
+      "id": 556,
+      "vType": 1,
+      "vTypeGroup": "car",
+      "longitude": 34.75379,
+      "latitude": 32.04141,
+      "modalityTypeId": 1,
+      "fuelLevel": "high"
+    },
+    {
+      "id": 557,
+      "vType": 1,
+      "vTypeGroup": "car",
+      "longitude": 34.77719,
+      "latitude": 32.06405,
+      "modalityTypeId": 1,
+      "fuelLevel": "med",
+      "p": true,
+      "pid": 370
+    },
+    {
+      "id": 558,
+      "vType": 1,
+      "vTypeGroup": "car",
+      "longitude": 34.78454,
+      "latitude": 32.06173,
+      "modalityTypeId": 1,
+      "fuelLevel": "high",
+      "p": true,
+      "pid": 6
+    },
+    {
+      "id": 585,
+      "vType": 1,
+      "vTypeGroup": "car",
+      "longitude": 34.77523,
+      "latitude": 32.06739,
+      "modalityTypeId": 1,
+      "fuelLevel": "med",
+      "f": "e",
+      "p": true,
+      "pid": 300
+    },
+    {
+      "id": 586,
+      "vType": 1,
+      "vTypeGroup": "car",
+      "longitude": 34.78708,
+      "latitude": 32.05185,
+      "modalityTypeId": 1,
+      "fuelLevel": "med",
+      "f": "e"
+    },
+    {
+      "id": 587,
+      "vType": 1,
+      "vTypeGroup": "car",
+      "longitude": 34.78378,
+      "latitude": 32.07411,
+      "modalityTypeId": 1,
+      "fuelLevel": "med",
+      "f": "e",
+      "p": true,
+      "pid": 358
+    },
+    {
+      "id": 590,
+      "vType": 1,
+      "vTypeGroup": "car",
+      "longitude": 34.7786,
+      "latitude": 32.07334,
+      "modalityTypeId": 1,
+      "fuelLevel": "med",
+      "f": "e",
+      "p": true,
+      "pid": 137
+    },
+    {
+      "id": 591,
+      "vType": 1,
+      "vTypeGroup": "car",
+      "longitude": 34.77141,
+      "latitude": 32.08839,
+      "modalityTypeId": 1,
+      "fuelLevel": "high",
+      "f": "e"
+    },
+    {
+      "id": 593,
+      "vType": 1,
+      "vTypeGroup": "car",
+      "longitude": 34.77448,
+      "latitude": 32.04232,
+      "modalityTypeId": 1,
+      "fuelLevel": "med",
+      "f": "e"
+    },
+    {
+      "id": 595,
+      "vType": 1,
+      "vTypeGroup": "car",
+      "longitude": 34.76742,
+      "latitude": 32.07237,
+      "modalityTypeId": 1,
+      "fuelLevel": "high",
+      "f": "e",
+      "p": true,
+      "pid": 317
+    },
+    {
+      "id": 596,
+      "vType": 1,
+      "vTypeGroup": "car",
+      "longitude": 34.75831,
+      "latitude": 32.05513,
+      "modalityTypeId": 1,
+      "fuelLevel": "high",
+      "f": "e"
+    },
+    {
+      "id": 599,
+      "vType": 1,
+      "vTypeGroup": "car",
+      "longitude": 34.76426,
+      "latitude": 32.0643,
+      "modalityTypeId": 1,
+      "fuelLevel": "med",
+      "f": "e"
+    },
+    {
+      "id": 602,
+      "vType": 1,
+      "vTypeGroup": "car",
+      "longitude": 34.80547,
+      "latitude": 32.05393,
+      "modalityTypeId": 1,
+      "fuelLevel": "med",
+      "f": "e"
+    },
+    {
+      "id": 603,
+      "vType": 1,
+      "vTypeGroup": "car",
+      "longitude": 34.7564,
+      "latitude": 32.05285,
+      "modalityTypeId": 1,
+      "fuelLevel": "med"
+    },
+    {
+      "id": 605,
+      "vType": 1,
+      "vTypeGroup": "car",
+      "longitude": 34.74921,
+      "latitude": 32.04734,
+      "modalityTypeId": 1,
+      "fuelLevel": "med",
+      "f": "e"
+    },
+    {
+      "id": 606,
+      "vType": 1,
+      "vTypeGroup": "car",
+      "longitude": 34.76652,
+      "latitude": 32.06684,
+      "modalityTypeId": 1,
+      "fuelLevel": "med",
+      "f": "e"
+    },
+    {
+      "id": 614,
+      "vType": 1,
+      "vTypeGroup": "car",
+      "longitude": 34.80361,
+      "latitude": 32.11871,
+      "modalityTypeId": 1,
+      "fuelLevel": "high",
+      "f": "e"
+    },
+    {
+      "id": 616,
+      "vType": 1,
+      "vTypeGroup": "car",
+      "longitude": 34.78589,
+      "latitude": 32.07707,
+      "modalityTypeId": 1,
+      "fuelLevel": "high",
+      "f": "e"
+    },
+    {
+      "id": 617,
+      "vType": 1,
+      "vTypeGroup": "car",
+      "longitude": 34.76997,
+      "latitude": 32.05627,
+      "modalityTypeId": 1,
+      "fuelLevel": "med",
+      "f": "e",
+      "p": true,
+      "pid": 21
+    },
+    {
+      "id": 619,
+      "vType": 1,
+      "vTypeGroup": "car",
+      "longitude": 34.76252,
+      "latitude": 32.03682,
+      "modalityTypeId": 1,
+      "fuelLevel": "high",
+      "f": "e",
+      "p": true,
+      "pid": 225
+    },
+    {
+      "id": 621,
+      "vType": 1,
+      "vTypeGroup": "car",
+      "longitude": 34.77635,
+      "latitude": 32.07047,
+      "modalityTypeId": 1,
+      "fuelLevel": "med",
+      "f": "e",
+      "p": true,
+      "pid": 211
+    },
+    {
+      "id": 622,
+      "vType": 1,
+      "vTypeGroup": "car",
+      "longitude": 34.78461,
+      "latitude": 32.07297,
+      "modalityTypeId": 1,
+      "fuelLevel": "high",
+      "f": "e"
+    },
+    {
+      "id": 624,
+      "vType": 1,
+      "vTypeGroup": "car",
+      "longitude": 34.78261,
+      "latitude": 32.06703,
+      "modalityTypeId": 1,
+      "fuelLevel": "med",
+      "f": "e"
+    },
+    {
+      "id": 625,
+      "vType": 1,
+      "vTypeGroup": "car",
+      "longitude": 34.75836,
+      "latitude": 32.05513,
+      "modalityTypeId": 1,
+      "fuelLevel": "med"
+    },
+    {
+      "id": 626,
+      "vType": 1,
+      "vTypeGroup": "car",
+      "longitude": 34.78222,
+      "latitude": 32.07629,
+      "modalityTypeId": 1,
+      "fuelLevel": "med",
+      "p": true,
+      "pid": 340
+    },
+    {
+      "id": 630,
+      "vType": 1,
+      "vTypeGroup": "car",
+      "longitude": 34.75659,
+      "latitude": 32.04814,
+      "modalityTypeId": 1,
+      "fuelLevel": "high"
+    },
+    {
+      "id": 632,
+      "vType": 1,
+      "vTypeGroup": "car",
+      "longitude": 34.79508,
+      "latitude": 32.13809,
+      "modalityTypeId": 1,
+      "fuelLevel": "med"
+    },
+    {
+      "id": 633,
+      "vType": 1,
+      "vTypeGroup": "car",
+      "longitude": 34.7711,
+      "latitude": 32.08388,
+      "modalityTypeId": 1,
+      "fuelLevel": "high",
+      "p": true,
+      "pid": 176
+    },
+    {
+      "id": 635,
+      "vType": 1,
+      "vTypeGroup": "car",
+      "longitude": 34.78576,
+      "latitude": 32.07669,
+      "modalityTypeId": 1,
+      "fuelLevel": "med",
+      "f": "e"
+    },
+    {
+      "id": 636,
+      "vType": 1,
+      "vTypeGroup": "car",
+      "longitude": 34.76705,
+      "latitude": 32.06168,
+      "modalityTypeId": 1,
+      "fuelLevel": "med",
+      "f": "e",
+      "p": true,
+      "pid": 171
+    },
+    {
+      "id": 637,
+      "vType": 1,
+      "vTypeGroup": "car",
+      "longitude": 34.78261,
+      "latitude": 32.06704,
+      "modalityTypeId": 1,
+      "fuelLevel": "med",
+      "f": "e"
+    },
+    {
+      "id": 638,
+      "vType": 1,
+      "vTypeGroup": "car",
+      "longitude": 34.78645,
+      "latitude": 32.09972,
+      "modalityTypeId": 1,
+      "fuelLevel": "med",
+      "f": "e"
+    },
+    {
+      "id": 639,
+      "vType": 1,
+      "vTypeGroup": "car",
+      "longitude": 34.75702,
+      "latitude": 32.05036,
+      "modalityTypeId": 1,
+      "fuelLevel": "med",
+      "f": "e",
+      "p": true,
+      "pid": 263
+    },
+    {
+      "id": 642,
+      "vType": 1,
+      "vTypeGroup": "car",
+      "longitude": 34.77339,
+      "latitude": 32.06979,
+      "modalityTypeId": 1,
+      "fuelLevel": "med",
+      "f": "e",
+      "p": true,
+      "pid": 206
+    },
+    {
+      "id": 643,
+      "vType": 1,
+      "vTypeGroup": "car",
+      "longitude": 34.76715,
+      "latitude": 32.05126,
+      "modalityTypeId": 1,
+      "fuelLevel": "med",
+      "f": "e"
+    },
+    {
+      "id": 648,
+      "vType": 1,
+      "vTypeGroup": "car",
+      "longitude": 34.80033,
+      "latitude": 32.05855,
+      "modalityTypeId": 1,
+      "fuelLevel": "med",
+      "p": true,
+      "pid": 1
+    },
+    {
+      "id": 649,
+      "vType": 1,
+      "vTypeGroup": "car",
+      "longitude": 34.77988,
+      "latitude": 32.07547,
+      "modalityTypeId": 1,
+      "fuelLevel": "high",
+      "p": true,
+      "pid": 125
+    },
+    {
+      "id": 650,
+      "vType": 1,
+      "vTypeGroup": "car",
+      "longitude": 34.81189,
+      "latitude": 32.10398,
+      "modalityTypeId": 1,
+      "fuelLevel": "med"
+    },
+    {
+      "id": 651,
+      "vType": 1,
+      "vTypeGroup": "car",
+      "longitude": 34.76467,
+      "latitude": 32.0366,
+      "modalityTypeId": 1,
+      "fuelLevel": "med"
+    },
+    {
+      "id": 652,
+      "vType": 1,
+      "vTypeGroup": "car",
+      "longitude": 34.74764,
+      "latitude": 32.03581,
+      "modalityTypeId": 1,
+      "fuelLevel": "med"
+    },
+    {
+      "id": 653,
+      "vType": 1,
+      "vTypeGroup": "car",
+      "longitude": 34.77659,
+      "latitude": 32.03791,
+      "modalityTypeId": 1,
+      "fuelLevel": "high"
+    },
+    {
+      "id": 654,
+      "vType": 1,
+      "vTypeGroup": "car",
+      "longitude": 34.7935,
+      "latitude": 32.09449,
+      "modalityTypeId": 1,
+      "fuelLevel": "high"
+    },
+    {
+      "id": 657,
+      "vType": 1,
+      "vTypeGroup": "car",
+      "longitude": 34.77331,
+      "latitude": 32.07477,
+      "modalityTypeId": 1,
+      "fuelLevel": "high",
+      "p": true,
+      "pid": 116
+    },
+    {
+      "id": 658,
+      "vType": 1,
+      "vTypeGroup": "car",
+      "longitude": 34.7501,
+      "latitude": 32.04135,
+      "modalityTypeId": 1,
+      "fuelLevel": "high"
+    },
+    {
+      "id": 659,
+      "vType": 1,
+      "vTypeGroup": "car",
+      "longitude": 34.78214,
+      "latitude": 32.07623,
+      "modalityTypeId": 1,
+      "fuelLevel": "med",
+      "p": true,
+      "pid": 340
+    },
+    {
+      "id": 660,
+      "vType": 1,
+      "vTypeGroup": "car",
+      "longitude": 34.77648,
+      "latitude": 32.07614,
+      "modalityTypeId": 1,
+      "fuelLevel": "high",
+      "p": true,
+      "pid": 28
+    },
+    {
+      "id": 662,
+      "vType": 1,
+      "vTypeGroup": "car",
+      "longitude": 34.76575,
+      "latitude": 32.05626,
+      "modalityTypeId": 1,
+      "fuelLevel": "med"
+    },
+    {
+      "id": 663,
+      "vType": 1,
+      "vTypeGroup": "car",
+      "longitude": 34.74874,
+      "latitude": 32.04734,
+      "modalityTypeId": 1,
+      "fuelLevel": "med"
+    },
+    {
+      "id": 664,
+      "vType": 1,
+      "vTypeGroup": "car",
+      "longitude": 34.76956,
+      "latitude": 32.05448,
+      "modalityTypeId": 1,
+      "fuelLevel": "high"
+    },
+    {
+      "id": 665,
+      "vType": 1,
+      "vTypeGroup": "car",
+      "longitude": 34.79812,
+      "latitude": 32.07469,
+      "modalityTypeId": 1,
+      "fuelLevel": "med",
+      "p": true,
+      "pid": 91
+    },
+    {
+      "id": 666,
+      "vType": 1,
+      "vTypeGroup": "car",
+      "longitude": 34.76868,
+      "latitude": 32.06756,
+      "modalityTypeId": 1,
+      "fuelLevel": "med"
+    },
+    {
+      "id": 669,
+      "vType": 1,
+      "vTypeGroup": "car",
+      "longitude": 34.80744,
+      "latitude": 32.11133,
+      "modalityTypeId": 1,
+      "fuelLevel": "med",
+      "p": true,
+      "pid": 100
+    },
+    {
+      "id": 670,
+      "vType": 1,
+      "vTypeGroup": "car",
+      "longitude": 34.7671,
+      "latitude": 32.05746,
+      "modalityTypeId": 1,
+      "fuelLevel": "med",
+      "p": true,
+      "pid": 214
+    },
+    {
+      "id": 672,
+      "vType": 1,
+      "vTypeGroup": "car",
+      "longitude": 34.76664,
+      "latitude": 32.07561,
+      "modalityTypeId": 1,
+      "fuelLevel": "high",
+      "p": true,
+      "pid": 49
+    },
+    {
+      "id": 673,
+      "vType": 1,
+      "vTypeGroup": "car",
+      "longitude": 34.76406,
+      "latitude": 32.06615,
+      "modalityTypeId": 1,
+      "fuelLevel": "med",
+      "p": true,
+      "pid": 302
+    },
+    {
+      "id": 675,
+      "vType": 1,
+      "vTypeGroup": "car",
+      "longitude": 34.76263,
+      "latitude": 32.0369,
+      "modalityTypeId": 1,
+      "fuelLevel": "med",
+      "p": true,
+      "pid": 225
+    },
+    {
+      "id": 678,
+      "vType": 1,
+      "vTypeGroup": "car",
+      "longitude": 34.7951,
+      "latitude": 32.06942,
+      "modalityTypeId": 1,
+      "fuelLevel": "med",
+      "p": true,
+      "pid": 30
+    },
+    {
+      "id": 679,
+      "vType": 1,
+      "vTypeGroup": "car",
+      "longitude": 34.78298,
+      "latitude": 32.04844,
+      "modalityTypeId": 1,
+      "fuelLevel": "high"
+    },
+    {
+      "id": 680,
+      "vType": 1,
+      "vTypeGroup": "car",
+      "longitude": 34.79853,
+      "latitude": 32.14281,
+      "modalityTypeId": 1,
+      "fuelLevel": "med"
+    },
+    {
+      "id": 682,
+      "vType": 1,
+      "vTypeGroup": "car",
+      "longitude": 34.75245,
+      "latitude": 32.05023,
+      "modalityTypeId": 1,
+      "fuelLevel": "high",
+      "p": true,
+      "pid": 162
+    },
+    {
+      "id": 686,
+      "vType": 1,
+      "vTypeGroup": "car",
+      "longitude": 34.79613,
+      "latitude": 32.04432,
+      "modalityTypeId": 1,
+      "fuelLevel": "med"
+    },
+    {
+      "id": 687,
+      "vType": 1,
+      "vTypeGroup": "car",
+      "longitude": 34.77993,
+      "latitude": 32.07543,
+      "modalityTypeId": 1,
+      "fuelLevel": "med",
+      "p": true,
+      "pid": 125
+    },
+    {
+      "id": 688,
+      "vType": 1,
+      "vTypeGroup": "car",
+      "longitude": 34.80212,
+      "latitude": 32.07691,
+      "modalityTypeId": 1,
+      "fuelLevel": "high"
+    },
+    {
+      "id": 689,
+      "vType": 1,
+      "vTypeGroup": "car",
+      "longitude": 34.76777,
+      "latitude": 32.0551,
+      "modalityTypeId": 1,
+      "fuelLevel": "high"
+    },
+    {
+      "id": 690,
+      "vType": 1,
+      "vTypeGroup": "car",
+      "longitude": 34.76589,
+      "latitude": 32.05819,
+      "modalityTypeId": 1,
+      "fuelLevel": "high"
+    },
+    {
+      "id": 691,
+      "vType": 1,
+      "vTypeGroup": "car",
+      "longitude": 34.75372,
+      "latitude": 32.04467,
+      "modalityTypeId": 1,
+      "fuelLevel": "med"
+    },
+    {
+      "id": 692,
+      "vType": 1,
+      "vTypeGroup": "car",
+      "longitude": 34.78733,
+      "latitude": 32.05237,
+      "modalityTypeId": 1,
+      "fuelLevel": "high"
+    },
+    {
+      "id": 693,
+      "vType": 1,
+      "vTypeGroup": "car",
+      "longitude": 34.79315,
+      "latitude": 32.11812,
+      "modalityTypeId": 1,
+      "fuelLevel": "high"
+    },
+    {
+      "id": 694,
+      "vType": 1,
+      "vTypeGroup": "car",
+      "longitude": 34.7608,
+      "latitude": 32.04631,
+      "modalityTypeId": 1,
+      "fuelLevel": "med"
+    },
+    {
+      "id": 696,
+      "vType": 1,
+      "vTypeGroup": "car",
+      "longitude": 34.79793,
+      "latitude": 32.06762,
+      "modalityTypeId": 1,
+      "fuelLevel": "high"
+    },
+    {
+      "id": 697,
+      "vType": 1,
+      "vTypeGroup": "car",
+      "longitude": 34.78764,
+      "latitude": 32.06681,
+      "modalityTypeId": 1,
+      "fuelLevel": "med"
+    },
+    {
+      "id": 698,
+      "vType": 1,
+      "vTypeGroup": "car",
+      "longitude": 34.82175,
+      "latitude": 32.10201,
+      "modalityTypeId": 1,
+      "fuelLevel": "high"
+    },
+    {
+      "id": 699,
+      "vType": 1,
+      "vTypeGroup": "car",
+      "longitude": 34.776,
+      "latitude": 32.06573,
+      "modalityTypeId": 1,
+      "fuelLevel": "high",
+      "p": true,
+      "pid": 351
+    },
+    {
+      "id": 700,
+      "vType": 1,
+      "vTypeGroup": "car",
+      "longitude": 34.82916,
+      "latitude": 32.12649,
+      "modalityTypeId": 1,
+      "fuelLevel": "high"
+    },
+    {
+      "id": 701,
+      "vType": 1,
+      "vTypeGroup": "car",
+      "longitude": 34.79326,
+      "latitude": 32.11825,
+      "modalityTypeId": 1,
+      "fuelLevel": "med"
+    },
+    {
+      "id": 702,
+      "vType": 1,
+      "vTypeGroup": "car",
+      "longitude": 34.80281,
+      "latitude": 32.10793,
+      "modalityTypeId": 1,
+      "fuelLevel": "med",
+      "p": true,
+      "pid": 105
+    },
+    {
+      "id": 703,
+      "vType": 1,
+      "vTypeGroup": "car",
+      "longitude": 34.79419,
+      "latitude": 32.10769,
+      "modalityTypeId": 1,
+      "fuelLevel": "med"
+    },
+    {
+      "id": 704,
+      "vType": 1,
+      "vTypeGroup": "car",
+      "longitude": 34.75825,
+      "latitude": 32.04281,
+      "modalityTypeId": 1,
+      "fuelLevel": "med"
+    },
+    {
+      "id": 705,
+      "vType": 1,
+      "vTypeGroup": "car",
+      "longitude": 34.82596,
+      "latitude": 32.10896,
+      "modalityTypeId": 1,
+      "fuelLevel": "med"
+    },
+    {
+      "id": 707,
+      "vType": 1,
+      "vTypeGroup": "car",
+      "longitude": 34.7551,
+      "latitude": 32.05352,
+      "modalityTypeId": 1,
+      "fuelLevel": "med",
+      "p": true,
+      "pid": 53
+    },
+    {
+      "id": 709,
+      "vType": 1,
+      "vTypeGroup": "car",
+      "longitude": 34.79234,
+      "latitude": 32.14329,
+      "modalityTypeId": 1,
+      "fuelLevel": "high",
+      "p": true,
+      "pid": 180
+    },
+    {
+      "id": 710,
+      "vType": 1,
+      "vTypeGroup": "car",
+      "longitude": 34.79926,
+      "latitude": 32.05411,
+      "modalityTypeId": 1,
+      "fuelLevel": "med"
+    },
+    {
+      "id": 714,
+      "vType": 1,
+      "vTypeGroup": "car",
+      "longitude": 34.77963,
+      "latitude": 32.06784,
+      "modalityTypeId": 1,
+      "fuelLevel": "high",
+      "p": true,
+      "pid": 339
+    },
+    {
+      "id": 716,
+      "vType": 1,
+      "vTypeGroup": "car",
+      "longitude": 34.77557,
+      "latitude": 32.06109,
+      "modalityTypeId": 1,
+      "fuelLevel": "high",
+      "p": true,
+      "pid": 304
+    },
+    {
+      "id": 717,
+      "vType": 1,
+      "vTypeGroup": "car",
+      "longitude": 34.76159,
+      "latitude": 32.0604,
+      "modalityTypeId": 1,
+      "fuelLevel": "high",
+      "p": true,
+      "pid": 257
+    },
+    {
+      "id": 718,
+      "vType": 1,
+      "vTypeGroup": "car",
+      "longitude": 34.77902,
+      "latitude": 32.05853,
+      "modalityTypeId": 1,
+      "fuelLevel": "high"
+    },
+    {
+      "id": 721,
+      "vType": 1,
+      "vTypeGroup": "car",
+      "longitude": 34.74811,
+      "latitude": 32.03915,
+      "modalityTypeId": 1,
+      "fuelLevel": "high"
+    },
+    {
+      "id": 723,
+      "vType": 1,
+      "vTypeGroup": "car",
+      "longitude": 34.77859,
+      "latitude": 32.07335,
+      "modalityTypeId": 1,
+      "fuelLevel": "med",
+      "p": true,
+      "pid": 137
+    },
+    {
+      "id": 724,
+      "vType": 1,
+      "vTypeGroup": "car",
+      "longitude": 34.78542,
+      "latitude": 32.04743,
+      "modalityTypeId": 1,
+      "fuelLevel": "med"
+    },
+    {
+      "id": 725,
+      "vType": 1,
+      "vTypeGroup": "car",
+      "longitude": 34.77039,
+      "latitude": 32.05844,
+      "modalityTypeId": 1,
+      "fuelLevel": "med"
+    },
+    {
+      "id": 726,
+      "vType": 1,
+      "vTypeGroup": "car",
+      "longitude": 34.79941,
+      "latitude": 32.12144,
+      "modalityTypeId": 1,
+      "fuelLevel": "med"
+    },
+    {
+      "id": 729,
+      "vType": 1,
+      "vTypeGroup": "car",
+      "longitude": 34.74916,
+      "latitude": 32.04739,
+      "modalityTypeId": 1,
+      "fuelLevel": "med"
+    },
+    {
+      "id": 730,
+      "vType": 1,
+      "vTypeGroup": "car",
+      "longitude": 34.75393,
+      "latitude": 32.04455,
+      "modalityTypeId": 1,
+      "fuelLevel": "med"
+    },
+    {
+      "id": 731,
+      "vType": 1,
+      "vTypeGroup": "car",
+      "longitude": 34.82252,
+      "latitude": 32.12292,
+      "modalityTypeId": 1,
+      "fuelLevel": "high"
+    },
+    {
+      "id": 732,
+      "vType": 1,
+      "vTypeGroup": "car",
+      "longitude": 34.77948,
+      "latitude": 32.07126,
+      "modalityTypeId": 1,
+      "fuelLevel": "high",
+      "p": true,
+      "pid": 36
+    },
+    {
+      "id": 733,
+      "vType": 1,
+      "vTypeGroup": "car",
+      "longitude": 34.77603,
+      "latitude": 32.07338,
+      "modalityTypeId": 1,
+      "fuelLevel": "high",
+      "p": true,
+      "pid": 360
+    },
+    {
+      "id": 735,
+      "vType": 1,
+      "vTypeGroup": "car",
+      "longitude": 34.77715,
+      "latitude": 32.06409,
+      "modalityTypeId": 1,
+      "fuelLevel": "high",
+      "p": true,
+      "pid": 370
+    },
+    {
+      "id": 736,
+      "vType": 1,
+      "vTypeGroup": "car",
+      "longitude": 34.80277,
+      "latitude": 32.10799,
+      "modalityTypeId": 1,
+      "fuelLevel": "med",
+      "p": true,
+      "pid": 105
+    },
+    {
+      "id": 737,
+      "vType": 1,
+      "vTypeGroup": "car",
+      "longitude": 34.80324,
+      "latitude": 32.12245,
+      "modalityTypeId": 1,
+      "fuelLevel": "med"
+    },
+    {
+      "id": 740,
+      "vType": 1,
+      "vTypeGroup": "car",
+      "longitude": 34.76709,
+      "latitude": 32.05739,
+      "modalityTypeId": 1,
+      "fuelLevel": "med",
+      "p": true,
+      "pid": 214
+    },
+    {
+      "id": 742,
+      "vType": 1,
+      "vTypeGroup": "car",
+      "longitude": 34.77349,
+      "latitude": 32.06974,
+      "modalityTypeId": 1,
+      "fuelLevel": "med",
+      "p": true,
+      "pid": 206
+    },
+    {
+      "id": 743,
+      "vType": 1,
+      "vTypeGroup": "car",
+      "longitude": 34.82583,
+      "latitude": 32.12333,
+      "modalityTypeId": 1,
+      "fuelLevel": "high",
+      "p": true,
+      "pid": 307
+    },
+    {
+      "id": 744,
+      "vType": 1,
+      "vTypeGroup": "car",
+      "longitude": 34.78284,
+      "latitude": 32.06643,
+      "modalityTypeId": 1,
+      "fuelLevel": "med",
+      "p": true,
+      "pid": 348
+    },
+    {
+      "id": 746,
+      "vType": 1,
+      "vTypeGroup": "car",
+      "longitude": 34.75949,
+      "latitude": 32.04754,
+      "modalityTypeId": 1,
+      "fuelLevel": "high",
+      "p": true,
+      "pid": 3
+    },
+    {
+      "id": 747,
+      "vType": 1,
+      "vTypeGroup": "car",
+      "longitude": 34.77302,
+      "latitude": 32.06998,
+      "modalityTypeId": 1,
+      "fuelLevel": "med",
+      "p": true,
+      "pid": 96
+    },
+    {
+      "id": 749,
+      "vType": 1,
+      "vTypeGroup": "car",
+      "longitude": 34.74946,
+      "latitude": 32.04064,
+      "modalityTypeId": 1,
+      "fuelLevel": "med"
+    },
+    {
+      "id": 754,
+      "vType": 1,
+      "vTypeGroup": "car",
+      "longitude": 34.75323,
+      "latitude": 32.04274,
+      "modalityTypeId": 1,
+      "fuelLevel": "med"
+    },
+    {
+      "id": 755,
+      "vType": 1,
+      "vTypeGroup": "car",
+      "longitude": 34.78715,
+      "latitude": 32.09177,
+      "modalityTypeId": 1,
+      "fuelLevel": "high"
+    },
+    {
+      "id": 756,
+      "vType": 1,
+      "vTypeGroup": "car",
+      "longitude": 34.75243,
+      "latitude": 32.05036,
+      "modalityTypeId": 1,
+      "fuelLevel": "med",
+      "p": true,
+      "pid": 162
+    },
+    {
+      "id": 759,
+      "vType": 1,
+      "vTypeGroup": "car",
+      "longitude": 34.77164,
+      "latitude": 32.04015,
+      "modalityTypeId": 1,
+      "fuelLevel": "med"
+    },
+    {
+      "id": 760,
+      "vType": 1,
+      "vTypeGroup": "car",
+      "longitude": 34.74689,
+      "latitude": 32.04158,
+      "modalityTypeId": 1,
+      "fuelLevel": "med"
+    },
+    {
+      "id": 761,
+      "vType": 1,
+      "vTypeGroup": "car",
+      "longitude": 34.76795,
+      "latitude": 32.05285,
+      "modalityTypeId": 1,
+      "fuelLevel": "high",
+      "p": true,
+      "pid": 356
+    },
+    {
+      "id": 762,
+      "vType": 1,
+      "vTypeGroup": "car",
+      "longitude": 34.82175,
+      "latitude": 32.1262,
+      "modalityTypeId": 1,
+      "fuelLevel": "high"
+    },
+    {
+      "id": 763,
+      "vType": 1,
+      "vTypeGroup": "car",
+      "longitude": 34.7993,
+      "latitude": 32.11631,
+      "modalityTypeId": 1,
+      "fuelLevel": "high"
+    },
+    {
+      "id": 764,
+      "vType": 1,
+      "vTypeGroup": "car",
+      "longitude": 34.77557,
+      "latitude": 32.06116,
+      "modalityTypeId": 1,
+      "fuelLevel": "med",
+      "p": true,
+      "pid": 304
+    },
+    {
+      "id": 765,
+      "vType": 1,
+      "vTypeGroup": "car",
+      "longitude": 34.76665,
+      "latitude": 32.0757,
+      "modalityTypeId": 1,
+      "fuelLevel": "high",
+      "p": true,
+      "pid": 49
+    },
+    {
+      "id": 766,
+      "vType": 1,
+      "vTypeGroup": "car",
+      "longitude": 34.8207,
+      "latitude": 32.1078,
+      "modalityTypeId": 1,
+      "fuelLevel": "med"
+    },
+    {
+      "id": 767,
+      "vType": 1,
+      "vTypeGroup": "car",
+      "longitude": 34.76423,
+      "latitude": 32.06435,
+      "modalityTypeId": 1,
+      "fuelLevel": "med"
+    },
+    {
+      "id": 769,
+      "vType": 1,
+      "vTypeGroup": "car",
+      "longitude": 34.74843,
+      "latitude": 32.04453,
+      "modalityTypeId": 1,
+      "fuelLevel": "high"
+    },
+    {
+      "id": 770,
+      "vType": 1,
+      "vTypeGroup": "car",
+      "longitude": 34.74812,
+      "latitude": 32.03879,
+      "modalityTypeId": 1,
+      "fuelLevel": "high"
+    },
+    {
+      "id": 771,
+      "vType": 1,
+      "vTypeGroup": "car",
+      "longitude": 34.81179,
+      "latitude": 32.10421,
+      "modalityTypeId": 1,
+      "fuelLevel": "med"
+    },
+    {
+      "id": 772,
+      "vType": 1,
+      "vTypeGroup": "car",
+      "longitude": 34.77516,
+      "latitude": 32.06738,
+      "modalityTypeId": 1,
+      "fuelLevel": "med",
+      "p": true,
+      "pid": 300
+    }
+  ]
+}

@@ -1,4 +1,4 @@
-package il.receiver.models;
+package il.receiver.external.dto.carsV2;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

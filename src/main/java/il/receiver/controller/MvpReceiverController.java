@@ -17,8 +17,12 @@ public class MvpReceiverController {
 
 
     @GetMapping("/check")
-    public void receiveMvpData() {
+    public void receiveMvpData(String name, String secondName, Integer id) {
         mvpReceiverService.invokeTheMainApiTogo();
+    }
+    @GetMapping("/vFlatChack")
+    public void receiveMvpData() {
+        mvpReceiverService.invokeVFlatTogo();
     }
 
 }
