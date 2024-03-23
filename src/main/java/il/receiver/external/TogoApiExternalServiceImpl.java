@@ -14,7 +14,5 @@ public class TogoApiExternalServiceImpl implements TogoApiService {
     @Override
     public CarsV2Response receiveCardsData(Integer projectType, String cars, Integer vType, String licencePlate) {
                 return null;
-
-
     }
 }
