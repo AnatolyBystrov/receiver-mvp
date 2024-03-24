@@ -12,7 +12,17 @@ public class FreeFlatInput {
 
     private String startDate;
     private String endDate;
-
-
+    private Integer zoom;
+    private Integer vType;
+    private Integer categoryId;
+    private Number longitude;
+    private Number latitude;
+    private Integer requestType;
+    private boolean isALLRegion;
+    private Number nElatitude;
+    private Number nElongitude;
+    private Number sWlatitude;
+    private Number sWlongitude;
+    
     //TODO:: check all fields by counting them bro
 }
