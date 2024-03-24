@@ -8,21 +8,18 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 public class FreeFlatInput {
-    //TODO:: need to fill all data to here (fields input from swagger)
-
     private String startDate;
     private String endDate;
     private Integer zoom;
     private Integer vType;
     private Integer categoryId;
-    private Number longitude;
-    private Number latitude;
+    private Double longitude;
+    private Double latitude;
     private Integer requestType;
-    private boolean isALLRegion;
-    private Number nElatitude;
-    private Number nElongitude;
-    private Number sWlatitude;
-    private Number sWlongitude;
+    private Boolean isALLRegion;
+    private Double nElatitude;
+    private Double nElongitude;
+    private Double sWlatitude;
+    private Double sWlongitude;
     
-    //TODO:: check all fields by counting them bro
 }

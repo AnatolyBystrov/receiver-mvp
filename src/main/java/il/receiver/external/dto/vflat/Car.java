@@ -5,10 +5,10 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 @Data
-@NoArgsConstructor
 @AllArgsConstructor
-public class FreeFlatResponse {
-
-    private ParkingLiteCar cars;
-
+@NoArgsConstructor
+public class Car{
+    public int id;
+    public int category;
+    public String fuelLevel;
 }

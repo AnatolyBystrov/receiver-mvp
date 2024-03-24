@@ -1,4 +1,4 @@
-package il.receiver.external.dto.vflat;
+package il.receiver.external.dto.v2get;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
