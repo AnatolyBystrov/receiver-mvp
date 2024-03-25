@@ -12,6 +12,8 @@ public class FreeVehiclesV2Input {
     private String endDate;
     private Integer zoom;
     private Integer vType;
+
+    //TODO:: -> Here my student CategoryID. Proud you Anatoly, that shit will not receible : CategoryID. But probably will not work  Need to check
     private Integer categoryId;
     private Double longitude;
     private Double latitude;

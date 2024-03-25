@@ -8,7 +8,12 @@ import java.util.List;
 @AllArgsConstructor
 @NoArgsConstructor
 public class FreeVehiclesV2Response {
-    public List <ParkingLite> pLite;
-    public List <ParkingLiteCar> pLiteCar;
-    public List <ParkingLIteLocation> pLiteLoc;
+    //TODO:: sing like it's not our json bro
+    private List<A2AVehiclesV2> a2A;
+    private List<A2BVehiclesV2> a2B;
+
+
+//    public List <ParkingLite> pLite;
+//    public List <ParkingLiteCar> pLiteCar;
+//    public List <ParkingLIteLocation> pLiteLoc;
 }
