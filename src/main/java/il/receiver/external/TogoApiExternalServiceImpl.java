@@ -1,21 +1,16 @@
 package il.receiver.external;
 
-import il.receiver.external.dto.RestResponse;
 import il.receiver.external.dto.carsV2.CarsV2Response;
-import il.receiver.external.dto.v2get.FreeFlatResponse;
+import il.receiver.external.dto.v2get.FreeVehiclesV2Input;
+import il.receiver.external.dto.v2get.FreeVehiclesV2Response;
 import il.receiver.external.dto.vflat.FreeFlatInput;
 import il.receiver.external.dto.vflat.FreeVFlatResponse;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
-import org.springframework.http.HttpStatusCode;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
-import org.springframework.web.util.UriBuilder;
-import org.springframework.web.util.UriBuilderFactory;
 import org.springframework.web.util.UriComponentsBuilder;
-
-import java.net.URI;
 
 @Slf4j
 @Service
@@ -35,10 +30,14 @@ public class TogoApiExternalServiceImpl implements TogoApiService {
         String baseUrl = "https://autotelpublicapiprod.gototech.co/api/FreeVehicles/vFlat";
 
         UriComponentsBuilder builder = UriComponentsBuilder.fromHttpUrl(baseUrl)
+                //TODO:: try to use from place that you will invoke our service
                 .queryParam("Zoom", freeFlatInput.getZoom())
-            //TODO:: try to use from place that you will invoke our service
-                .queryParam("requestType", 0)
-                .queryParam("isAllRegion", true);
+                .queryParam("requestType", freeFlatInput.getRequestType())
+                .queryParam("longitude",freeFlatInput.getLongitude())
+                .queryParam("latitude",freeFlatInput.getLatitude())
+                .queryParam("startDate",freeFlatInput.getStartDate())
+                .queryParam("endDate",freeFlatInput.getEndDate())
+                .queryParam("isAllRegion", freeFlatInput.getIsALLRegion());
 
         String uriString = builder.build().encode().toUriString();
 
@@ -46,5 +45,23 @@ public class TogoApiExternalServiceImpl implements TogoApiService {
         return responseEntity.getBody();
 
 
+    }
+    @Override
+    public FreeVehiclesV2Response receiveVehicles(FreeVehiclesV2Input freeVehiclesV2Input) {
+        String baseUrl = "https://autotelpublicapiprod.gototech.co/api/FreeVehicles/v2";
+        UriComponentsBuilder builder = UriComponentsBuilder.fromHttpUrl(baseUrl)
+                .queryParam("startDate", freeVehiclesV2Input.getStartDate())
+                .queryParam("endDate",freeVehiclesV2Input.getEndDate())
+                .queryParam("zoom",freeVehiclesV2Input.getZoom())
+                .queryParam("name",freeVehiclesV2Input.getVType())
+                .queryParam("vType",freeVehiclesV2Input.getVType())
+                .queryParam("categoryId",freeVehiclesV2Input.getCategoryId())
+                .queryParam("longitude",freeVehiclesV2Input.getLongitude())
+                .queryParam("latitude",freeVehiclesV2Input.getLatitude())
+                .queryParam("requestType",freeVehiclesV2Input.getRequestType());
+
+        String uriString = builder.build().encode().toUriString();
+        ResponseEntity<FreeVehiclesV2Response> responseEntity = restTemplate.getForEntity(uriString, FreeVehiclesV2Response.class);
+        return responseEntity.getBody();
     }
 }

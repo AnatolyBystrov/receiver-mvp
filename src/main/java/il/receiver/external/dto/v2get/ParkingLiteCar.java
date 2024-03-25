@@ -1,12 +1,11 @@
 package il.receiver.external.dto.v2get;
-
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
 @Data
-@NoArgsConstructor
 @AllArgsConstructor
+@NoArgsConstructor
 public class ParkingLiteCar {
     private Integer id;
     private Integer category;

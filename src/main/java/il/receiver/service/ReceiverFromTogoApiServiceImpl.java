@@ -27,15 +27,18 @@ public class ReceiverFromTogoApiServiceImpl implements MvpReceiverService {
 
         log.info("");
     }
-
     @Override
     public void invokeVFlatTogo() {
         FreeFlatInput freeFlatInput = new FreeFlatInput();
-
-        //TODO:: this part
+        freeFlatInput.setCategoryId(32);
+        freeFlatInput.setLongitude(null);
+        freeFlatInput.setLatitude(null);
+        freeFlatInput.setStartDate(null);
+        freeFlatInput.setEndDate(null);
         freeFlatInput.setZoom(16);
+        freeFlatInput.setIsALLRegion(true);
+        freeFlatInput.setRequestType(0);
 
-
-        togoApiService.receiveFreeVehicles(null);
+        togoApiService.receiveFreeVehicles(freeFlatInput);
     }
 }
