@@ -2,6 +2,8 @@ package il.receiver.service;
 
 import il.receiver.external.TogoApiService;
 import il.receiver.external.dto.carsV2.CarsV2Response;
+import il.receiver.external.dto.freeParkings.FreeParkingInput;
+import il.receiver.external.dto.getInfoUnicCar.GetInfoUnicInput;
 import il.receiver.external.dto.v2get.FreeVehiclesV2Input;
 import il.receiver.external.dto.vflat.FreeFlatInput;
 import lombok.RequiredArgsConstructor;
@@ -40,34 +42,45 @@ public class ReceiverFromTogoApiServiceImpl implements MvpReceiverService {
         freeFlatInput.setIsALLRegion(true);
         freeFlatInput.setRequestType(0);
 
-
-        FreeVehiclesV2Input freeInput = new FreeVehiclesV2Input();
-        //TODO: Тут я хочу, что бы ты разобрался со спосабами передачи данных в метод, который мы используем для получение данных из вашей базы
-        //Тут пишу по русски, так как это важно не проебать  Один из ключевых моментов  На нем мы будем строить логику дальнейщего написания приложения
-
-        //TODO: find correct invocation and try to use here: like in your task
-
-        String startDate = "startDate";
-        String endDate = "endDate";
-        Integer zoom = 1;
-        Integer vType = 2;
-        Integer categoryId = 123;
-        Double longitude = 3D;
-        Double latitude = 10.0;
-        String requestType =  "requestType";
-
-
-
-        freeInput.setStartDate(startDate);
-        freeInput.setEndDate(endDate);
-        freeInput.setZoom(zoom);
-        freeInput.setVType(vType);
-        freeInput.setCategoryId(categoryId);
-        freeInput.setLongitude(longitude);
-        freeInput.setLatitude(latitude);
-        freeInput.setRequestType(requestType);
-
-        togoApiService.receiveVehicles(freeInput);
-//        togoApiService.receiveFreeVehicles(freeFlatInput);
+        togoApiService.receiveFreeVehicles(freeFlatInput);
     }
+
+    @Override
+    public void receiveVehiclesV2(){
+        FreeVehiclesV2Input freeVehiclesV2Input = new FreeVehiclesV2Input();
+        freeVehiclesV2Input.setStartDate(null);
+        freeVehiclesV2Input.setEndDate(null);
+        freeVehiclesV2Input.setZoom(32);
+        freeVehiclesV2Input.setVType(32);
+        freeVehiclesV2Input.setCategoryId(32);
+        freeVehiclesV2Input.setLatitude(null);
+        freeVehiclesV2Input.setLongitude(null);
+        freeVehiclesV2Input.setRequestType(null);
+
+        togoApiService.receiveVehiclesV2(freeVehiclesV2Input);
+
+    }
+    @Override
+    public void receiveFreeParking(){
+        FreeParkingInput freeParkingInput = new FreeParkingInput();
+        freeParkingInput.setLatitude(null);
+        freeParkingInput.setLongitude(null);
+        freeParkingInput.setModalityId(32);
+        freeParkingInput.setRadiusInKilometer(null);
+        freeParkingInput.setVType(null);
+
+        togoApiService.receiveFreeParking(freeParkingInput);
+    }
+    @Override
+    public void receiveUnicCarInfo(){
+        GetInfoUnicInput getInfoUnicInput = new GetInfoUnicInput();
+        getInfoUnicInput.setProjectType(32);
+        getInfoUnicInput.setValue(null);
+        getInfoUnicInput.setExternalLicensePlate(null);
+        getInfoUnicInput.setVType(32);
+
+        togoApiService.receiveUnicCarInfo(getInfoUnicInput);
+
+    }
+
 }

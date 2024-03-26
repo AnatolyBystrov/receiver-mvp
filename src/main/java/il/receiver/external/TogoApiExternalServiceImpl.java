@@ -1,6 +1,10 @@
 package il.receiver.external;
 
 import il.receiver.external.dto.carsV2.CarsV2Response;
+import il.receiver.external.dto.freeParkings.FreeParkingInput;
+import il.receiver.external.dto.freeParkings.FreeParkingResponse;
+import il.receiver.external.dto.getInfoUnicCar.GetInfoUnicInput;
+import il.receiver.external.dto.getInfoUnicCar.GetInfoUnicResponse;
 import il.receiver.external.dto.v2get.FreeVehiclesV2Input;
 import il.receiver.external.dto.v2get.FreeVehiclesV2Response;
 import il.receiver.external.dto.vflat.FreeFlatInput;
@@ -30,7 +34,6 @@ public class TogoApiExternalServiceImpl implements TogoApiService {
         String baseUrl = "https://autotelpublicapiprod.gototech.co/api/FreeVehicles/vFlat";
 
         UriComponentsBuilder builder = UriComponentsBuilder.fromHttpUrl(baseUrl)
-                //TODO:: try to use from place that you will invoke our service
                 .queryParam("Zoom", freeFlatInput.getZoom())
                 .queryParam("requestType", freeFlatInput.getRequestType())
                 .queryParam("longitude",freeFlatInput.getLongitude())
@@ -47,7 +50,7 @@ public class TogoApiExternalServiceImpl implements TogoApiService {
 
     }
     @Override
-    public FreeVehiclesV2Response receiveVehicles(FreeVehiclesV2Input freeVehiclesV2Input) {
+    public FreeVehiclesV2Response receiveVehiclesV2(FreeVehiclesV2Input freeVehiclesV2Input) {
         String baseUrl = "https://autotelpublicapiprod.gototech.co/api/FreeVehicles/v2";
         UriComponentsBuilder builder = UriComponentsBuilder.fromHttpUrl(baseUrl)
                 .queryParam("startDate", freeVehiclesV2Input.getStartDate())
@@ -64,4 +67,33 @@ public class TogoApiExternalServiceImpl implements TogoApiService {
         ResponseEntity<FreeVehiclesV2Response> responseEntity = restTemplate.getForEntity(uriString, FreeVehiclesV2Response.class);
         return responseEntity.getBody();
     }
+
+    @Override
+    public FreeParkingResponse receiveFreeParking(FreeParkingInput freeParkingInput) {
+        String baseUrl = "https://autotelpublicapiprod.gototech.co/api/Vehicles/FreeParking";
+        UriComponentsBuilder builder = UriComponentsBuilder.fromHttpUrl(baseUrl)
+                .queryParam("latitude", freeParkingInput.getLatitude())
+                .queryParam("longitude",freeParkingInput.getLongitude())
+                .queryParam("modalityId",freeParkingInput.getModalityId())
+                .queryParam("radiusInKilometer",freeParkingInput.getRadiusInKilometer())
+                .queryParam("vType",freeParkingInput.getVType());
+        String uriString = builder.build().encode().toUriString();
+        ResponseEntity<FreeParkingResponse>responseEntity = restTemplate.getForEntity(uriString,FreeParkingResponse.class);
+        return responseEntity.getBody();
+    }
+
+    @Override
+    public GetInfoUnicResponse receiveUnicCarInfo(GetInfoUnicInput getInfoUnicInput) {
+        String baseUrl = "https://autotelpublicapiprod.gototech.co/api/Vehicles/GetInfo";
+        UriComponentsBuilder builder =UriComponentsBuilder.fromHttpUrl(baseUrl)
+                .queryParam("projectType", getInfoUnicInput.getProjectType())
+                .queryParam("value", getInfoUnicInput.getValue())
+                .queryParam("externalLicensePlate", getInfoUnicInput.getExternalLicensePlate())
+                .queryParam("vType",getInfoUnicInput.getVType());
+        String uriString =builder.build().encode().toUriString();
+        ResponseEntity<GetInfoUnicResponse>responseEntity =restTemplate.getForEntity(uriString,GetInfoUnicResponse.class);
+        return responseEntity.getBody();
+
+    }
+
 }
