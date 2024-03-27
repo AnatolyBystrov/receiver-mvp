@@ -1,5 +1,7 @@
 package il.receiver.external;
 
+import il.receiver.external.dto.Parkings.GetParkingsResponse;
+import il.receiver.external.dto.SingleA2A.SearchA2ASingleInput;
 import il.receiver.external.dto.carsV2.CarsV2Response;
 import il.receiver.external.dto.freeParkings.FreeParkingInput;
 import il.receiver.external.dto.freeParkings.FreeParkingResponse;
@@ -17,6 +19,8 @@ public interface TogoApiService {
     FreeParkingResponse receiveFreeParking(FreeParkingInput freeParkingInput);
 
     GetInfoUnicResponse receiveUnicCarInfo(GetInfoUnicInput getInfoUnicInput);
+    GetParkingsResponse receiveUnicCarInfo(GetParkingsResponse getParkingsResponse);
 
 
+    SearchA2ASingleInput getSingleA2A(SearchA2ASingleInput searchA2ASingleInput);
 }

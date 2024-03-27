@@ -1,6 +1,8 @@
 package il.receiver.service;
 
 import il.receiver.external.TogoApiService;
+import il.receiver.external.dto.Parkings.GetParkingsResponse;
+import il.receiver.external.dto.SingleA2A.SearchA2ASingleInput;
 import il.receiver.external.dto.carsV2.CarsV2Response;
 import il.receiver.external.dto.freeParkings.FreeParkingInput;
 import il.receiver.external.dto.getInfoUnicCar.GetInfoUnicInput;
@@ -82,5 +84,31 @@ public class ReceiverFromTogoApiServiceImpl implements MvpReceiverService {
         togoApiService.receiveUnicCarInfo(getInfoUnicInput);
 
     }
+    @Override
+    public void getParkings(){
+        GetParkingsResponse getParkings = new GetParkingsResponse();
+        getParkings.setId(32);
+        getParkings.setAddress(null);
+        getParkings.setLatitude(null);
+        getParkings.setLongitude(null);
+        getParkings.setFleetType(32);
+        getParkings.setFleetTypeText(null);
+        getParkings.setStatus(32);
+        getParkings.setCapacity(32);
+        getParkings.setIsElectric(null);
+        getParkings.setNotes(null);
+        getParkings.setModality(32);
+    }
 
+    @Override
+    public void getSingleA2A(){
+        SearchA2ASingleInput searchA2ASingleInput = new SearchA2ASingleInput();
+        searchA2ASingleInput.getStartDate();
+        searchA2ASingleInput.getEndDate();
+        searchA2ASingleInput.getVehicleId();
+        searchA2ASingleInput.getCategoryId();
+        searchA2ASingleInput.getLongitude();
+        searchA2ASingleInput.getLatitude();
+        searchA2ASingleInput.getSearchSource();
+    }
 }

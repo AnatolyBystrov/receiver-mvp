@@ -9,4 +9,8 @@ public interface MvpReceiverService {
     void receiveFreeParking();
 
     void receiveUnicCarInfo();
+
+    void getParkings();
+
+    void getSingleA2A();
 }

@@ -1,5 +1,7 @@
 package il.receiver.external;
 
+import il.receiver.external.dto.Parkings.GetParkingsResponse;
+import il.receiver.external.dto.SingleA2A.SearchA2ASingleInput;
 import il.receiver.external.dto.carsV2.CarsV2Response;
 import il.receiver.external.dto.freeParkings.FreeParkingInput;
 import il.receiver.external.dto.freeParkings.FreeParkingResponse;
@@ -95,5 +97,39 @@ public class TogoApiExternalServiceImpl implements TogoApiService {
         return responseEntity.getBody();
 
     }
+    @Override
+    public GetParkingsResponse receiveUnicCarInfo(GetParkingsResponse getParkingsResponse) {
+            String baseUrl = "https://autotelpublicapiprod.gototech.co/api/FreeVehicles/Parkings";
+            UriComponentsBuilder builder = UriComponentsBuilder.fromHttpUrl(baseUrl)
+                    .queryParam(" id", getParkingsResponse.getId())
+                    .queryParam("address",getParkingsResponse.getAddress())
+                    .queryParam("latitude",getParkingsResponse.getLatitude())
+                    .queryParam("longitude",getParkingsResponse.getLongitude())
+                    .queryParam("fleetType",getParkingsResponse.getFleetType())
+                    .queryParam("fleetTypeText",getParkingsResponse.getFleetTypeText())
+                    .queryParam("status", getParkingsResponse.getStatus())
+                    .queryParam("capacity", getParkingsResponse.getCapacity())
+                    .queryParam("isElectric", getParkingsResponse.getIsElectric())
+                    .queryParam("notes",getParkingsResponse.getNotes())
+                    .queryParam("modality",getParkingsResponse.getModality());
+            String uriString =builder.build().encode().toUriString();
+            ResponseEntity<GetParkingsResponse>responseEntity = restTemplate.getForEntity(uriString,GetParkingsResponse.class);
+            return responseEntity.getBody();
+        }
 
-}
+        @Override
+        public SearchA2ASingleInput getSingleA2A(SearchA2ASingleInput searchA2ASingleInput){
+        String baseUrl = "https://autotelpublicapiprod.gototech.co/api/FreeVehicles/SearchA2ASingle";
+        UriComponentsBuilder builder = UriComponentsBuilder.fromHttpUrl(baseUrl)
+                .queryParam("startDate",searchA2ASingleInput.getStartDate())
+                .queryParam("endDate",searchA2ASingleInput.getEndDate())
+                .queryParam("vehicleId",searchA2ASingleInput.getVehicleId())
+                .queryParam("categoryId",searchA2ASingleInput.getCategoryId())
+                .queryParam("longitude",searchA2ASingleInput.getLongitude())
+                .queryParam("latitude",searchA2ASingleInput.getLatitude())
+                .queryParam("searchSource",searchA2ASingleInput.getSearchSource());
+            String uriString =builder.build().encode().toUriString();
+            ResponseEntity<SearchA2ASingleInput> responseEntity= restTemplate.getForEntity(uriString,SearchA2ASingleInput.class);
+            return responseEntity.getBody();
+        }
+    }
