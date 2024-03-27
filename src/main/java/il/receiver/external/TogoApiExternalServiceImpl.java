@@ -118,6 +118,8 @@ public class TogoApiExternalServiceImpl implements TogoApiService {
         }
 
         @Override
+
+
         public SearchA2ASingleInput getSingleA2A(SearchA2ASingleInput searchA2ASingleInput){
         String baseUrl = "https://autotelpublicapiprod.gototech.co/api/FreeVehicles/SearchA2ASingle";
         UriComponentsBuilder builder = UriComponentsBuilder.fromHttpUrl(baseUrl)
