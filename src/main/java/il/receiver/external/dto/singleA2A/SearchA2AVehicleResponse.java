@@ -1,4 +1,4 @@
-package il.receiver.external.dto.SingleA2A;
+package il.receiver.external.dto.singleA2A;
 import il.receiver.external.dto.carsV2.PricingDetailsData;
 import lombok.AllArgsConstructor;
 import lombok.Data;

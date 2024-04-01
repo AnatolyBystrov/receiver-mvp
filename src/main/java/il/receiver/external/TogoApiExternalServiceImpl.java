@@ -1,7 +1,7 @@
 package il.receiver.external;
 
-import il.receiver.external.dto.Parkings.GetParkingsResponse;
-import il.receiver.external.dto.SingleA2A.SearchA2ASingleInput;
+import il.receiver.external.dto.parkings.GetParkingsResponse;
+import il.receiver.external.dto.singleA2A.SearchA2ASingleInput;
 import il.receiver.external.dto.carsV2.CarsV2Response;
 import il.receiver.external.dto.freeParkings.FreeParkingInput;
 import il.receiver.external.dto.freeParkings.FreeParkingResponse;
@@ -13,6 +13,7 @@ import il.receiver.external.dto.vflat.FreeFlatInput;
 import il.receiver.external.dto.vflat.FreeVFlatResponse;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
@@ -25,6 +26,9 @@ public class TogoApiExternalServiceImpl implements TogoApiService {
 
     private final RestTemplate restTemplate;
 
+    @Value("external.api.baseurl")
+    private String baseURL;
+
     @Override
     public CarsV2Response receiveCardsData(Integer projectType, String cars, Integer vType, String licencePlate) {
                 return null;
@@ -33,9 +37,9 @@ public class TogoApiExternalServiceImpl implements TogoApiService {
     @Override
     public FreeVFlatResponse receiveFreeVehicles(FreeFlatInput freeFlatInput) {
 
-        String baseUrl = "https://autotelpublicapiprod.gototech.co/api/FreeVehicles/vFlat";
+        String currentEpUrl = "/FreeVehicles/vFlat";
 
-        UriComponentsBuilder builder = UriComponentsBuilder.fromHttpUrl(baseUrl)
+        UriComponentsBuilder builder = UriComponentsBuilder.fromHttpUrl(prepareUrl(baseURL, currentEpUrl))
                 .queryParam("Zoom", freeFlatInput.getZoom())
                 .queryParam("requestType", freeFlatInput.getRequestType())
                 .queryParam("longitude",freeFlatInput.getLongitude())
@@ -51,9 +55,13 @@ public class TogoApiExternalServiceImpl implements TogoApiService {
 
 
     }
+
     @Override
     public FreeVehiclesV2Response receiveVehiclesV2(FreeVehiclesV2Input freeVehiclesV2Input) {
         String baseUrl = "https://autotelpublicapiprod.gototech.co/api/FreeVehicles/v2";
+        //TODO:: use our method for creating url
+
+
         UriComponentsBuilder builder = UriComponentsBuilder.fromHttpUrl(baseUrl)
                 .queryParam("startDate", freeVehiclesV2Input.getStartDate())
                 .queryParam("endDate",freeVehiclesV2Input.getEndDate())
@@ -118,8 +126,6 @@ public class TogoApiExternalServiceImpl implements TogoApiService {
         }
 
         @Override
-
-
         public SearchA2ASingleInput getSingleA2A(SearchA2ASingleInput searchA2ASingleInput){
         String baseUrl = "https://autotelpublicapiprod.gototech.co/api/FreeVehicles/SearchA2ASingle";
         UriComponentsBuilder builder = UriComponentsBuilder.fromHttpUrl(baseUrl)
@@ -134,4 +140,12 @@ public class TogoApiExternalServiceImpl implements TogoApiService {
             ResponseEntity<SearchA2ASingleInput> responseEntity= restTemplate.getForEntity(uriString,SearchA2ASingleInput.class);
             return responseEntity.getBody();
         }
+
+
+    private String prepareUrl(String baseURL, String currentEpUrl) {
+        //TODO:: check what will work for us
+        return String.format("%s %s", baseURL , currentEpUrl);
+//        return  baseURL+currentEpUrl;
+    }
+
     }

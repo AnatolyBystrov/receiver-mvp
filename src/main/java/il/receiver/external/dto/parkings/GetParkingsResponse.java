@@ -1,4 +1,4 @@
-package il.receiver.external.dto.Parkings;
+package il.receiver.external.dto.parkings;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;

@@ -1,7 +1,7 @@
 package il.receiver.external;
 
-import il.receiver.external.dto.Parkings.GetParkingsResponse;
-import il.receiver.external.dto.SingleA2A.SearchA2ASingleInput;
+import il.receiver.external.dto.parkings.GetParkingsResponse;
+import il.receiver.external.dto.singleA2A.SearchA2ASingleInput;
 import il.receiver.external.dto.carsV2.CarsV2Response;
 import il.receiver.external.dto.freeParkings.FreeParkingInput;
 import il.receiver.external.dto.freeParkings.FreeParkingResponse;

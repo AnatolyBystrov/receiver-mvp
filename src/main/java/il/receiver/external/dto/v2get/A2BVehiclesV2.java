@@ -12,8 +12,8 @@ import java.util.List;
 public class A2BVehiclesV2 {
     public List<ParkingLiteCar> cars;
     public ParkingLiteLocation location;
-    public int capacity;
-    public int amount;
-    public int vType;
-    public boolean isCombined;
+    public Integer capacity;
+    public Integer amount;
+    public Integer vType;
+    public Boolean isCombined;
 }

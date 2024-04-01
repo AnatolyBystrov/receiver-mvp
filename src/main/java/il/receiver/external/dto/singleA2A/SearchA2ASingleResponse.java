@@ -1,4 +1,4 @@
-package il.receiver.external.dto.SingleA2A;
+package il.receiver.external.dto.singleA2A;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -8,7 +8,6 @@ import java.util.List;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class RatesDataA2A {
-    private String item1;
-    private String item2;
+public class SearchA2ASingleResponse {
+    private List <Internal_SearchOneVehicleInfo> oneVehicle;
 }
