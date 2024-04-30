@@ -1,6 +1,7 @@
 package il.receiver.controller;
 
 
+import il.receiver.controller.dto.FreeCarsResponse;
 import il.receiver.service.MvpReceiverService;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
@@ -15,14 +16,10 @@ import org.springframework.web.bind.annotation.RestController;
 public class MvpReceiverController {
     private final MvpReceiverService mvpReceiverService;
 
+    @GetMapping("/get-free-cars-location")
+    public FreeCarsResponse receiveMvpData(String startDate, String endDate, Double longitude, Double latitude) {
 
-    @GetMapping("/check")
-    public void receiveMvpData(String name, String secondName, Integer id) {
-        mvpReceiverService.invokeTheMainApiTogo();
-    }
-    @GetMapping("/vFlatChack")
-    public void receiveMvpData() {
-        mvpReceiverService.invokeVFlatTogo();
+        return mvpReceiverService.receiveAllFreeCar(startDate, endDate, longitude, latitude);
     }
 
 }

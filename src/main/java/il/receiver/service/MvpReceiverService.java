@@ -1,16 +1,7 @@
 package il.receiver.service;
 
+import il.receiver.controller.dto.FreeCarsResponse;
+
 public interface MvpReceiverService {
-    void invokeTheMainApiTogo();
-    void invokeVFlatTogo();
-
-    void receiveVehiclesV2();
-
-    void receiveFreeParking();
-
-    void receiveUnicCarInfo();
-
-    void getParkings();
-
-    void getSingleA2A();
+    FreeCarsResponse receiveAllFreeCar(String startDate, String endDate, Double longitude, Double latitude);
 }

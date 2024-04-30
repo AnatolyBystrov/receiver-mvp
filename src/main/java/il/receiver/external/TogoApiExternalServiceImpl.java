@@ -26,7 +26,7 @@ public class TogoApiExternalServiceImpl implements TogoApiService {
 
     private final RestTemplate restTemplate;
 
-    @Value("external.api.baseurl")
+    @Value("${external.api.baseurl}")
     private String baseURL;
 
     @Override
@@ -37,16 +37,14 @@ public class TogoApiExternalServiceImpl implements TogoApiService {
     @Override
     public FreeVFlatResponse receiveFreeVehicles(FreeFlatInput freeFlatInput) {
 
+        //TODO:: check input data
         String currentEpUrl = "/FreeVehicles/vFlat";
 
         UriComponentsBuilder builder = UriComponentsBuilder.fromHttpUrl(prepareUrl(baseURL, currentEpUrl))
-                .queryParam("Zoom", freeFlatInput.getZoom())
-                .queryParam("requestType", freeFlatInput.getRequestType())
                 .queryParam("longitude",freeFlatInput.getLongitude())
                 .queryParam("latitude",freeFlatInput.getLatitude())
                 .queryParam("startDate",freeFlatInput.getStartDate())
-                .queryParam("endDate",freeFlatInput.getEndDate())
-                .queryParam("isAllRegion", freeFlatInput.getIsALLRegion());
+                .queryParam("endDate",freeFlatInput.getEndDate());
 
         String uriString = builder.build().encode().toUriString();
 

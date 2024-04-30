@@ -8,7 +8,7 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 public class Car{
-    public int id;
-    public int category;
+    public Integer id;
+    public Integer category;
     public String fuelLevel;
 }
