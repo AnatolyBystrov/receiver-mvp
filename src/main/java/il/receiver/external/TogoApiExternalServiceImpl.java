@@ -143,9 +143,7 @@ public class TogoApiExternalServiceImpl implements TogoApiService {
 
 
     private String prepareUrl(String baseURL, String currentEpUrl) {
-        //TODO:: check what will work for us
         return String.format("%s %s", baseURL, currentEpUrl);
-//        return  baseURL+currentEpUrl;
     }
 
 }
