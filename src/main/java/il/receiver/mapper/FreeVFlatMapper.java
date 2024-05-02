@@ -23,6 +23,17 @@ public class FreeVFlatMapper {
         return freeFlatInput;
     }
 
+    public FreeFlatInput toAllFlatInput(Integer zoom, Integer requestType, Boolean isALLRegion) {
+
+        FreeFlatInput freeFlatInput = new FreeFlatInput();
+
+        freeFlatInput.setZoom(zoom);
+        freeFlatInput.setRequestType(requestType);
+        freeFlatInput.setIsALLRegion(isALLRegion);
+        //TODO:: This method can receive more parameter for updating request to free car EP (also recommended add MapStruct)
+
+        return freeFlatInput;
+    }
     public FreeCarsResponse toFreeCarsResponse(FreeVFlatResponse freeVFlatResponse) {
         //TODO:: This is interesting part. Business logic. For returning data we need to understand values of fields in List's (points a2A a2B)
         FreeCarsResponse freeCarsResponse = new FreeCarsResponse();

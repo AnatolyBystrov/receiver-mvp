@@ -27,4 +27,14 @@ public class ReceiverFromTogoApiServiceImpl implements MvpReceiverService {
         return freeVFlatMapper.toFreeCarsResponse(freeVFlatResponse);
     }
 
+    @Override
+    public FreeCarsResponse receiveAllCar(Integer zoom, Integer requestType, Boolean isALLRegion) {
+
+        FreeFlatInput freeFlatInput = freeVFlatMapper.toAllFlatInput(zoom, requestType, isALLRegion);
+        FreeVFlatResponse freeVFlatResponse = togoApiService.receiveFreeVehicles(freeFlatInput);
+
+        return freeVFlatMapper.toFreeCarsResponse(freeVFlatResponse);
+    }
+
+
 }

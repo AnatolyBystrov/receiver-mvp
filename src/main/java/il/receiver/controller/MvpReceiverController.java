@@ -17,9 +17,14 @@ public class MvpReceiverController {
     private final MvpReceiverService mvpReceiverService;
 
     @GetMapping("/get-free-cars-location")
-    public FreeCarsResponse receiveMvpData(String startDate, String endDate, Double longitude, Double latitude) {
+    public FreeCarsResponse receiveFreeCars(String startDate, String endDate, Double longitude, Double latitude) {
 
         return mvpReceiverService.receiveAllFreeCar(startDate, endDate, longitude, latitude);
     }
 
+    @GetMapping("/get-all-cars-location")
+    public FreeCarsResponse receiveAllCars(Integer zoom, Integer requestType, Boolean isALLRegion) {
+
+        return mvpReceiverService.receiveAllCar(zoom, requestType, isALLRegion);
+    }
 }
