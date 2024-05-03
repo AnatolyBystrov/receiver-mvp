@@ -1,3 +1,68 @@
 http://localhost:8080/swagger-ui-custom.html
 
 http://localhost:8080/api/get-all-cars-location?zoom=16&requestType=0&isALLRegion=true
+
+
+NOT NEW Stuff:
+mongodb and docker instruction:
+
+
+To create a MongoDB database with three JSON documents that match the structure of your Java classes, you can use the mongo shell or a MongoDB GUI tool like MongoDB Compass. Here's an example using the mongo shell:
+
+Start by connecting to your MongoDB server using the mongo shell:
+sh
+Copy code
+mongo
+Create a new database named testdb:
+javascript
+Copy code
+use testdb
+Insert three JSON documents into the database, each representing a different class:
+javascript
+Copy code
+db.freevflatresponse.insertOne({
+    "points": [
+        { "longitude": 1, "latitude": 2, "count": 3, "icon": "icon1" },
+        { "longitude": 4, "latitude": 5, "count": 6, "icon": "icon2" }
+    ],
+    "a2A": [
+        { "cars": [{ "id": 1, "category": 2, "fuelLevel": "full" }], "longitude": 1, "latitude": 2, "capacity": 3, "amount": 4, "vType": 5, "isCombined": true }
+    ],
+    "a2B": [
+        { "id": 1, "vType": 2, "vTypeGroup": "group1", "longitude": 1, "latitude": 2, "modalityTypeId": 3, "fuelLevel": "empty", "hasHelmet": false, "licencePlate": "plate1", "f": "f1", "p": false, "pid": 4 }
+    ]
+})
+Verify that the documents were inserted correctly:
+javascript
+Copy code
+db.freevflatresponse.find().pretty()
+This example creates a database named testdb and inserts a single document into a collection named freevflatresponse. You can repeat the insertOne operation to insert more documents into the collection, each representing a different set of data for testing purposes.
+
+Remember to adjust the data in the JSON documents to match the structure and content of your Java classes.
+
+
+
+
+___________________________________________________________________________________________________________________________________________________________________________________________________________
+
+Based on the output of docker ps, it looks like your MongoDB container is running and is mapped to port 32768 on your host machine. To connect MongoDB Compass to this container, you should use the following connection string:
+
+arduino
+Copy code
+mongodb://localhost:32768
+Save to grepper
+If you're using Docker Desktop on Windows or macOS, use host.docker.internal instead of localhost in your connection string:
+
+arduino
+Copy code
+mongodb://host.docker.internal:32768
+Save to grepper
+Here's how you can use this connection string in MongoDB Compass:
+
+Open MongoDB Compass.
+Click on "New Connection".
+In the "New Connection" dialog, enter the connection string (mongodb://localhost:32768 or mongodb://host.docker.internal:32768) in the "Hostname" field.
+Click "Connect".
+This should establish a connection to the MongoDB server running in your Docker container, allowing you to explore and manage your databases and collections using MongoDB Compass.
+
+

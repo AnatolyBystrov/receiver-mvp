@@ -10,9 +10,9 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 public class Cars {
 
-    public Integer id;
-    public Double longitude;
-    public Double latitude;
+    private Integer id;
+    private Double longitude;
+    private Double latitude;
 
     public Cars(Integer id) {
         this.id = id;

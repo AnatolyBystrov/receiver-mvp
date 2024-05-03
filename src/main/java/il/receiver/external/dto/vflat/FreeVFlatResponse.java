@@ -11,7 +11,7 @@ import java.util.List;
 @NoArgsConstructor
 public class
 FreeVFlatResponse {
-    public List<Point> points;
-    public List<A2A> a2A;
-    public List<A2B> a2B;
+    private List<Point> points;
+    private List<A2A> a2A;
+    private List<A2B> a2B;
 }
